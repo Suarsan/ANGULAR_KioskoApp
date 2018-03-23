@@ -12,7 +12,14 @@ export class UserModel {
   private _addresses: Array<AddressModel>;
   private _likedMagazines: Array<MagazineModel>;
 
-  constructor( id: string, name: string, lastName: string, email: string, pass: string, birthdate: string, addresses: Array<AddressModel>, likedMagazines: Array<MagazineModel> ) {
+  constructor( email: string,
+               pass: string,
+               id?: string,
+               name?: string,
+               lastName?: string,
+               birthdate?: string,
+               addresses?: Array<AddressModel>,
+               likedMagazines?: Array<MagazineModel> ) {
     this._id = id;
     this._name = name;
     this._lastName = lastName;

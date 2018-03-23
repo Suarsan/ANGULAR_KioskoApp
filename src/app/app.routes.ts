@@ -1,11 +1,18 @@
 import { Routes } from '@angular/router';
-import { HomePageComponent } from './home-page/home-page.component';
-import { DetailPageComponent } from './detail-page/detail-page.component';
-import { NotfoundPageComponent } from './notfound-page/notfound-page.component';
+import { IndexComponent } from './index/index.component';
+import { SigninComponent } from './signin/signin.component';
+import { SignupComponent } from './signup/signup.component';
+import { HomeComponent } from './home/home.component';
+import { DetailComponent } from './detail/detail.component';
+import { ViewComponent } from './view/view.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 export const routes: Routes = [
-  { path: '', component: HomePageComponent, pathMatch: 'full' },
-  { path: 'magazine', component: DetailPageComponent, pathMatch: 'full' },
-
-  { path: '**', component: NotfoundPageComponent },
+  { path: 'index', component: IndexComponent },
+  { path: 'signin', component: SigninComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'magazine', component: DetailComponent },
+  { path: 'view', component: ViewComponent },
+  { path: '**', component: NotfoundComponent },
 ];

@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { MagazineModel } from '../models/magazine.model';
 import { PublisherModel } from '../models/publisher.model';
-import { MagazineService } from '../services/magazine.service';
+import { MagazineService } from '../services/magazine-service/magazine.service';
 
 @Component({
-  selector: 'app-detail-page',
-  templateUrl: './detail-page.component.html',
-  styleUrls: ['./detail-page.component.css']
+  selector: 'app-detail',
+  templateUrl: './detail.component.html',
+  styleUrls: ['./detail.component.css']
 })
-export class DetailPageComponent implements OnInit {
+export class DetailComponent implements OnInit {
 
   private currentMagazine: MagazineModel;
   private id: string | number;
@@ -21,7 +21,7 @@ export class DetailPageComponent implements OnInit {
     this.getMagazine(1);
   }
 
-  getMagazine(id) {
+  private getMagazine(id) {
     this.magazineService.get(id).subscribe(
       data => {
         this.currentMagazine = data;
