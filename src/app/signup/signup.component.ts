@@ -21,9 +21,15 @@ export class SignupComponent implements OnInit {
   }
 
   public signUp() {
-    if (this.authService.signUp(this.email, this.pass)) {
-      this.goHome();
-    }
+    this.authService.signUp(this.email, this.pass).subscribe(
+      authenticated => {
+        if (authenticated) {
+          this.router.navigate(['/']);
+        } else {
+          alert('Error al autenticar');
+        }
+      }
+    );
   }
 
   private goHome() {

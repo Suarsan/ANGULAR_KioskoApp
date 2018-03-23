@@ -7,6 +7,7 @@ import { MagazineModel } from '../../models/magazine.model';
   styleUrls: ['./magazine-preview.component.css']
 })
 export class MagazinePreviewComponent implements OnInit {
+
   @Input() currentMagazine: MagazineModel;
 
   constructor() { }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { UserModel } from '../models/user.model';
 
 @Component({
   selector: 'app-home',
@@ -9,16 +10,13 @@ import { Router } from '@angular/router';
 
 export class HomeComponent implements OnInit {
 
-  private email: string;
+  private currentUser: UserModel;
 
   constructor(private router: Router) { }
 
   ngOnInit() {
     try {
-      localStorage.getItem('kioskoUser');
-      this.email = JSON.parse(localStorage.getItem('kioskoUser'))._email;
-      console.log(this.email);
-      this.router.navigate(['/']);
+      this.currentUser = (JSON.parse(localStorage.getItem('kioskoUser')))[0];
     } catch {
       this.router.navigate(['/signup']);
     }

@@ -10,7 +10,10 @@ export class UserModel {
   private _pass: string;
   private _birthdate: string;
   private _addresses: Array<AddressModel>;
-  private _likedMagazines: Array<MagazineModel>;
+  private _likedMagazines: string;
+  private _recommendedMagazines: string;
+  private _cart: string;
+  private _downloadedMagazines: string;
 
   constructor( email: string,
                pass: string,
@@ -19,7 +22,11 @@ export class UserModel {
                lastName?: string,
                birthdate?: string,
                addresses?: Array<AddressModel>,
-               likedMagazines?: Array<MagazineModel> ) {
+               likedMagazines?: string,
+               recommendedMagazines?: string,
+               cart?: string,
+               downloadedMagazines?: string
+                ) {
     this._id = id;
     this._name = name;
     this._lastName = lastName;
@@ -27,69 +34,96 @@ export class UserModel {
     this._pass = pass;
     this._birthdate = birthdate;
     this._addresses = addresses;
-    this._likedMagazines = likedMagazines; }
+    this._likedMagazines = likedMagazines;
+    this._recommendedMagazines = recommendedMagazines;
+    this._cart = cart;
+    this._downloadedMagazines = downloadedMagazines; }
 
-  public get id(): string {
+  public get Id(): string {
     return this._id;
   }
 
-  public set id(value: string) {
+  public set Id(value: string) {
     this._id = value;
   }
 
-  public get name(): string {
+  public get Name(): string {
     return this._name;
   }
 
-  public set name(value: string) {
+  public set Name(value: string) {
     this._name = value;
   }
 
-  public get lastName(): string {
+  public get LastName(): string {
     return this._lastName;
   }
 
-  public set lastName(value: string) {
+  public set LastName(value: string) {
     this._lastName = value;
   }
 
-  public get email(): string {
+  public get Email(): string {
     return this._email;
   }
 
-  public set email(value: string) {
+  public set Email(value: string) {
     this._email = value;
   }
 
-  public get pass(): string {
+  public get Pass(): string {
     return this._pass;
   }
 
-  public set pass(value: string) {
+  public set Pass(value: string) {
     this._pass = value;
   }
 
-  public get birthdate(): string {
+  public get Birthdate(): string {
     return this._birthdate;
   }
 
-  public set birthdate(value: string) {
+  public set Birthdate(value: string) {
     this._birthdate = value;
   }
 
-  public get addresses(): Array<AddressModel> {
+  public get Addresses(): Array<AddressModel> {
     return this._addresses;
   }
 
-  public set addresses(value: Array<AddressModel>) {
+  public set Addresses(value: Array<AddressModel>) {
     this._addresses = value;
   }
 
-  public get likedMagazines(): Array<MagazineModel> {
+  public get LikedMagazines(): string {
     return this._likedMagazines;
   }
 
-  public set likedMagazines(value: Array<MagazineModel>) {
+  public set LikedMagazines(value: string) {
+    this._likedMagazines = value;
+  }
+
+  public get RecommendedMagazines(): string {
+    return this._recommendedMagazines;
+  }
+
+  public set RecommendedMagazines(value: string) {
+    this._recommendedMagazines = value;
+  }
+
+  public get Cart(): string {
+    return this._likedMagazines;
+  }
+
+  public set Cart(value: string) {
+    this._likedMagazines = value;
+  }
+
+  public get DownloadedMagazines(): string {
+    return this._likedMagazines;
+  }
+
+  public set DownloadedMagazines(value: string) {
     this._likedMagazines = value;
   }
 }

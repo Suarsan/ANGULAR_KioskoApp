@@ -15,6 +15,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
 import { AuthService } from './services/auth-service/auth.service';
+import { UserService } from './services/user-service/user.service';
 import { ViewComponent } from './view/view.component';
 import { IndexComponent } from './index/index.component';
 
@@ -38,7 +39,7 @@ import { IndexComponent } from './index/index.component';
     HttpClientModule,
     RouterModule.forRoot(routes),
   ],
-  providers: [MagazineService, AuthService],
+  providers: [MagazineService, AuthService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
