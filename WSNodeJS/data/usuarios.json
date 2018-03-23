@@ -1,0 +1,256 @@
+[
+    {
+        "id": 1,
+        "name": "Javier",
+        "lastName": "Suárez",
+        "email": "javier@kiosko.com",
+        "pass": "javier",
+        "birthdate": "22/09/1990",
+        "completeAddress": [
+            {
+                "address": "Direccion en madrid",
+                "streetName": "Calle pedro callejo",
+                "number": "15",
+                "cityName": "Madrid",
+                "postCodeName": "28038",
+                "countryName": "España"
+            }
+        ],
+        "liked": [
+            "1"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [
+            "1",
+            "3",
+            "2"
+        ],
+        "downloads": [
+            "1",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "",
+        "lastName": "",
+        "email": "adminss@gmail.com",
+        "pass": "asd",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [],
+        "downloads": []
+    },
+    {
+        "id": 3,
+        "name": "",
+        "lastName": "",
+        "email": "asdasd@asd.com",
+        "pass": "asd",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [
+            "2",
+            "4",
+            "6"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [],
+        "downloads": []
+    },
+    {
+        "id": 4,
+        "name": "",
+        "lastName": "",
+        "email": "fgh@glsfdm.com",
+        "pass": "asd",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [
+            "2",
+            "4",
+            "6"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [],
+        "downloads": []
+    },
+    {
+        "id": 5,
+        "name": "",
+        "lastName": "",
+        "email": "fgh@gmail.com",
+        "pass": "asd",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [
+            "2",
+            "4",
+            "6"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [],
+        "downloads": []
+    },
+    {
+        "id": 6,
+        "name": "",
+        "lastName": "",
+        "email": "azahara@kiosko.com",
+        "pass": "azahara",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [
+            "2",
+            "4",
+            "6"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [],
+        "downloads": []
+    },
+    {
+        "id": 7,
+        "name": "",
+        "lastName": "",
+        "email": "david@kiosko.com",
+        "pass": "david",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [
+            "2",
+            "4",
+            "6"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [],
+        "downloads": []
+    },
+    {
+        "id": 8,
+        "name": "",
+        "lastName": "",
+        "email": "jesus@kiosko.com",
+        "pass": "jesus",
+        "birthdate": "",
+        "completeAddress": [
+            {
+                "address": "",
+                "streetName": "",
+                "number": "",
+                "cityName": "",
+                "postCodeName": "",
+                "countryName": ""
+            }
+        ],
+        "liked": [
+            "2",
+            "4",
+            "6"
+        ],
+        "recommendedmagazine": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "cart": [
+            "1"
+        ],
+        "downloads": [
+            "1"
+        ]
+    }
+]

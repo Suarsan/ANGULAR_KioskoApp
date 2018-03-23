@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  WebServiceURL: 'http://localhost:43210/' // direccion servidor de produccion
 };
