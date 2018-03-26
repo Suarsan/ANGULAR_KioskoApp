@@ -18,7 +18,7 @@ import { AuthService } from './services/auth-service/auth.service';
 import { UserService } from './services/user-service/user.service';
 import { ViewComponent } from './view/view.component';
 import { IndexComponent } from './index/index.component';
-import { MenubarComponent } from './components/menubar/menubar.component';
+import { MenubarComponent } from './menubar/menubar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,7 @@ import { MenubarComponent } from './components/menubar/menubar.component';
     NotfoundComponent,
     ViewComponent,
     IndexComponent,
-    MenubarComponent
+    MenubarComponent,
   ],
   imports: [
     BrowserModule,

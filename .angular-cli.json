@@ -22,7 +22,6 @@
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/ngx-bar-rating/themes/br-default-theme.css",
         "styles.css"
-
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
@@ -60,7 +59,8 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
-    "component": {}
+    "styleExt": "sass",
+    "component": {
+    }
   }
 }

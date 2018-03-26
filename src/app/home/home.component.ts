@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserModel } from '../models/user.model';
+import { MenubarComponent } from '../menubar/menubar.component';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +18,9 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     try {
       this.currentUser = JSON.parse(localStorage.getItem('kioskoUser'));
+      if (!this.currentUser) {
+        this.router.navigate(['/signup']);
+      }
     } catch {
       this.router.navigate(['/signup']);
     }

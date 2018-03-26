@@ -1,48 +1,28 @@
 [
   {
-    "email": "javier@kiosko.com",
-    "pass": "javier",
-    "id": 1,
-    "name": "Javier",
-    "lastName": "Suárez",
-    "birthdate": "22/09/1990",
-    "completeAddress": [
-      {
-        "address": "Direccion en madrid",
-        "streetName": "Calle pedro callejo",
-        "number": "15",
-        "cityName": "Madrid",
-        "postCodeName": "28038",
-        "countryName": "España"
-      }
-    ],
-    "liked": ["1"],
-    "recommendedmagazine": ["1", "2", "3", "4"],
-    "cart": ["1", "3", "2"],
-    "downloads": ["1", "3", "2"]
-  },
-  {
-    "email": "adminss@gmail.com",
-    "pass": "asd",
-    "id": 2,
+    "id": 3,
+    "email": "pepe@pepe.com",
+    "pass": "pepe",
     "name": "",
     "lastName": "",
     "birthdate": "",
-    "completeAddress": [
-      {
-        "address": "",
-        "streetName": "",
-        "number": "",
-        "cityName": "",
-        "postCodeName": "",
-        "countryName": ""
-      }
-    ],
-    "liked": [],
-    "recommendedmagazine": ["1", "2", "3", "4"],
+    "addresses": [],
+    "likedMagazines": [],
+    "recommendedMagazines": [],
     "cart": [],
-    "downloads": []
+    "downloadedMagazines": []
   },
-  { "id": 3, "email": "rtt", "pass": "rtt" },
-  { "id": 4, "email": "cv", "pass": "cv", "name": "" }
+  {
+    "id": 4,
+    "email": "javier@javier.com",
+    "pass": "javier",
+    "name": "",
+    "lastName": "",
+    "birthdate": "",
+    "addresses": [],
+    "likedMagazines": [],
+    "recommendedMagazines": [],
+    "cart": [],
+    "downloadedMagazines": []
+  }
 ]

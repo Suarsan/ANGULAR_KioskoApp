@@ -22,7 +22,6 @@ export class SigninComponent implements OnInit {
   private signIn() {
     this.authService.signIn(this.email, this.pass).subscribe(
       registeredUser => {
-        console.log(registeredUser);
         if (registeredUser) {
           localStorage.setItem('kioskoUser', JSON.stringify(<UserModel>registeredUser));
           this.router.navigate(['/']);

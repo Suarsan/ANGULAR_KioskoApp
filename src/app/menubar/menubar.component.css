@@ -1,0 +1,96 @@
+nav {
+  height: 50px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+  float: left; }
+  h1 a {
+    text-decoration: none;
+    color: #f0f0f0; }
+
+.toggle-menu {
+  display: inline;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: none;
+  background-color: #000; }
+  .toggle-menu > div {
+    display: inline-block; }
+
+.toggle-menu_items-list {
+  float: left; }
+  .toggle-menu_items-list a {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6em;
+    color: #C8C8C8;
+    margin: 20px 75px 20px 70px;
+    text-decoration: none; }
+  .toggle-menu_items-list a:hover {
+    color: #ffffff; }
+  .toggle-menu_items-list i {
+    margin-right: 15px; }
+
+.toggle-menu_items-list:first-child {
+  margin-top: 50px; }
+
+.toggle-menu_items-list:last-child {
+  margin-bottom: 50px; }
+
+.profilePhoto {
+  width: 200px;
+  float: left;
+  height: auto; }
+
+.menu-icon_container {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  margin-top: 7.5px;
+  margin-left: 25px; }
+
+.menu-profileInfo_container img {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 15px; }
+.menu-profileInfo_container p {
+  color: #eee;
+  text-align: center; }
+.menu-profileInfo_container .menu-profileInfo_username {
+  font-size: 1.4em;
+  margin-top: 15px; }
+.menu-profileInfo_container .menu-profileInfo_moreinfo {
+  font-size: 1em;
+  margin-top: 10px; }
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #f0f0f0;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+.change .bar1 {
+  transform: translate(0px, 8.75px) rotate(-45deg); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  transform: translate(0px, -8.75px) rotate(45deg); }
+
+/*# sourceMappingURL=menubar.component.css.map */

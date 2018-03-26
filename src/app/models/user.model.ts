@@ -36,8 +36,8 @@ export class UserModel {
     addresses === undefined ? this.addresses = [] : this.addresses = addresses ;
     likedMagazines === undefined ? this.likedMagazines = [] : this.likedMagazines = likedMagazines ;
     recommendedMagazines === undefined ? this.recommendedMagazines = [] : this.recommendedMagazines = recommendedMagazines;
-    this.cart = cart;
-    this.downloadedMagazines = downloadedMagazines; }
+    cart === undefined ? this.cart = [] : this.cart = cart ;
+    downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines; }
 
   public get Id(): number {
     return this.id;
@@ -95,35 +95,35 @@ export class UserModel {
     this.addresses = value;
   }
 
-  public get LikedMagazines(): string {
+  public get LikedMagazines(): Array<string> {
     return this.likedMagazines;
   }
 
-  public set LikedMagazines(value: string) {
+  public set LikedMagazines(value: Array<string>) {
     this.likedMagazines = value;
   }
 
-  public get RecommendedMagazines(): string {
+  public get RecommendedMagazines(): Array<string> {
     return this.recommendedMagazines;
   }
 
-  public set RecommendedMagazines(value: string) {
+  public set RecommendedMagazines(value: Array<string>) {
     this.recommendedMagazines = value;
   }
 
-  public get Cart(): string {
+  public get Cart(): Array<string> {
     return this.likedMagazines;
   }
 
-  public set Cart(value: string) {
+  public set Cart(value: Array<string>) {
     this.likedMagazines = value;
   }
 
-  public get DownloadedMagazines(): string {
+  public get DownloadedMagazines(): Array<string> {
     return this.likedMagazines;
   }
 
-  public set DownloadedMagazines(value: string) {
+  public set DownloadedMagazines(value: Array<string>) {
     this.likedMagazines = value;
   }
 }
