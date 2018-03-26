@@ -157,14 +157,17 @@ lstServicio.forEach(servicio => {
     })
   })
   app.post(servicio.url, function (req, res) {
+    console.log("en post");
     if (!isAutenticated(servicio.readonly, req, res)) return
     fs.readFile(servicio.fich, 'utf8', function (err, data) {
       console.log(data)
       var lst = JSON.parse(data)
       var ele = req.body
+
       if (ele[servicio.pk] == undefined) {
         res.status(500).end('Falta clave primaria.')
       } else if (lst.find(item => item[servicio.pk] == ele[servicio.pk]) == undefined) {
+
         if (ele[servicio.pk] == 0) {
           if (lst.length == 0)
             ele[servicio.pk] = 1;

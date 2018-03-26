@@ -3,127 +3,127 @@ import { AddressModel } from './address.model';
 
 export class UserModel {
 
-  private _id: string;
-  private _name: string;
-  private _lastName: string;
-  private _email: string;
-  private _pass: string;
-  private _birthdate: string;
-  private _addresses: Array<AddressModel>;
-  private _likedMagazines: string;
-  private _recommendedMagazines: string;
-  private _cart: string;
-  private _downloadedMagazines: string;
+  private id: number;
+  private name: string;
+  private lastName: string;
+  private email: string;
+  private pass: string;
+  private birthdate: string;
+  private addresses: Array<AddressModel>;
+  private likedMagazines: Array<string>;
+  private recommendedMagazines: Array<string>;
+  private cart: Array<string>;
+  private downloadedMagazines: Array<string>;
 
-  constructor( email: string,
+  constructor( id: number,
+               email: string,
                pass: string,
-               id?: string,
                name?: string,
                lastName?: string,
                birthdate?: string,
                addresses?: Array<AddressModel>,
-               likedMagazines?: string,
-               recommendedMagazines?: string,
-               cart?: string,
-               downloadedMagazines?: string
+               likedMagazines?: Array<string>,
+               recommendedMagazines?: Array<string>,
+               cart?: Array<string>,
+               downloadedMagazines?: Array<string>
                 ) {
-    this._id = id;
-    this._name = name;
-    this._lastName = lastName;
-    this._email = email;
-    this._pass = pass;
-    this._birthdate = birthdate;
-    this._addresses = addresses;
-    this._likedMagazines = likedMagazines;
-    this._recommendedMagazines = recommendedMagazines;
-    this._cart = cart;
-    this._downloadedMagazines = downloadedMagazines; }
+    this.id = id;
+    this.email = email;
+    this.pass = pass;
+    name === undefined ? this.name = '' : this.name = name ;
+    lastName === undefined ? this.lastName = '' : this.lastName = lastName ;
+    birthdate === undefined ? this.birthdate = '' : this.birthdate = birthdate ;
+    addresses === undefined ? this.addresses = [] : this.addresses = addresses ;
+    likedMagazines === undefined ? this.likedMagazines = [] : this.likedMagazines = likedMagazines ;
+    recommendedMagazines === undefined ? this.recommendedMagazines = [] : this.recommendedMagazines = recommendedMagazines;
+    this.cart = cart;
+    this.downloadedMagazines = downloadedMagazines; }
 
-  public get Id(): string {
-    return this._id;
+  public get Id(): number {
+    return this.id;
   }
 
-  public set Id(value: string) {
-    this._id = value;
+  public set Id(value: number) {
+    this.id = value;
   }
 
   public get Name(): string {
-    return this._name;
+    return this.name;
   }
 
   public set Name(value: string) {
-    this._name = value;
+    this.name = value;
   }
 
   public get LastName(): string {
-    return this._lastName;
+    return this.lastName;
   }
 
   public set LastName(value: string) {
-    this._lastName = value;
+    this.lastName = value;
   }
 
   public get Email(): string {
-    return this._email;
+    return this.email;
   }
 
   public set Email(value: string) {
-    this._email = value;
+    this.email = value;
   }
 
   public get Pass(): string {
-    return this._pass;
+    return this.pass;
   }
 
   public set Pass(value: string) {
-    this._pass = value;
+    this.pass = value;
   }
 
   public get Birthdate(): string {
-    return this._birthdate;
+    return this.birthdate;
   }
 
   public set Birthdate(value: string) {
-    this._birthdate = value;
+    this.birthdate = value;
   }
 
   public get Addresses(): Array<AddressModel> {
-    return this._addresses;
+    return this.addresses;
   }
 
   public set Addresses(value: Array<AddressModel>) {
-    this._addresses = value;
+    this.addresses = value;
   }
 
   public get LikedMagazines(): string {
-    return this._likedMagazines;
+    return this.likedMagazines;
   }
 
   public set LikedMagazines(value: string) {
-    this._likedMagazines = value;
+    this.likedMagazines = value;
   }
 
   public get RecommendedMagazines(): string {
-    return this._recommendedMagazines;
+    return this.recommendedMagazines;
   }
 
   public set RecommendedMagazines(value: string) {
-    this._recommendedMagazines = value;
+    this.recommendedMagazines = value;
   }
 
   public get Cart(): string {
-    return this._likedMagazines;
+    return this.likedMagazines;
   }
 
   public set Cart(value: string) {
-    this._likedMagazines = value;
+    this.likedMagazines = value;
   }
 
   public get DownloadedMagazines(): string {
-    return this._likedMagazines;
+    return this.likedMagazines;
   }
 
   public set DownloadedMagazines(value: string) {
-    this._likedMagazines = value;
+    this.likedMagazines = value;
   }
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth-service/auth.service';
 import { Router } from '@angular/router';
+import { UserModel } from '../models/user.model';
 
 @Component({
   selector: 'app-signup',
@@ -20,20 +21,17 @@ export class SignupComponent implements OnInit {
   ngOnInit() {
   }
 
-  public signUp() {
+  private signUp() {
     this.authService.signUp(this.email, this.pass).subscribe(
-      authenticated => {
-        if (authenticated) {
-          this.router.navigate(['/']);
-        } else {
-          alert('Error al autenticar');
-        }
+      loggedUser => {
+          if (loggedUser[0]) {
+            localStorage.setItem('kioskoUser', JSON.stringify(loggedUser[0]));
+            this.router.navigate(['/']);
+          } else {
+            console.log('No se pudo completar la autenticación');
+          }
       }
     );
-  }
-
-  private goHome() {
-    this.router.navigate(['/']);
   }
 
 }

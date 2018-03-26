@@ -18,10 +18,10 @@ export class UserService {
   public get (id: string | number) {
     return this.http.get<UserModel>(this.BASE_URL + '/' + id, this.options);
   }
-  public add (item: any) {
+  public add (item: UserModel) {
     return this.http.post<UserModel>(this.BASE_URL, item, this.options);
   }
-  public change (item: any) {
+  public change (item: UserModel) {
     return this.http.put<UserModel>(this.BASE_URL, item, this.options);
   }
   public remove (id: string | number) {

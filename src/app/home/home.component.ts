@@ -16,10 +16,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     try {
-      this.currentUser = (JSON.parse(localStorage.getItem('kioskoUser')))[0];
+      this.currentUser = JSON.parse(localStorage.getItem('kioskoUser'));
     } catch {
       this.router.navigate(['/signup']);
     }
   }
-
 }

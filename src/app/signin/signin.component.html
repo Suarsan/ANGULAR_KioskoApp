@@ -5,12 +5,8 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <input type="text" placeholder="Introduce tu email" class="col-xs-offset-1 col-xs-10">
-    <input type="text" placeholder="Introduce tu contraseña" class="col-xs-offset-1 col-xs-10">
-  </div>
-</div>
-<div class="row">
-  <div class="col-xs-offset-2 col-xs-8">
-    <a [routerLink]="['/index']">volver</a>
+    <input type="email" [(ngModel)]="email" placeholder="Introduce tu email" class="col-xs-offset-1 col-xs-10">
+    <input type="pass" [(ngModel)]="pass" placeholder="Introduce tu contraseña" class="col-xs-offset-1 col-xs-10">
+    <button (click)="signIn()">Registrarse</button>
   </div>
 </div>

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from '../services/auth-service/auth.service';
+import { UserModel } from '../models/user.model';
 
 @Component({
   selector: 'app-signin',
@@ -7,8 +10,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
-  constructor() { }
+  private email: string;
+  private pass: string;
+  private user: UserModel;
+
+  constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit() {
+  }
+
+  private signIn() {
+    this.authService.signIn(this.email, this.pass).subscribe(
+      registeredUser => {
+        console.log(registeredUser);
+        if (registeredUser) {
+          localStorage.setItem('kioskoUser', JSON.stringify(<UserModel>registeredUser));
+          this.router.navigate(['/']);
+        } else {
+          console.log('No se pudo completar el registro');
+        }
+      }
+    );
   }
 }
