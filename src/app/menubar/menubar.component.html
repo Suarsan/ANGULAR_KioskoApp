@@ -1,6 +1,6 @@
 <nav>
   <div>
-    <div class="menu-icon_container">
+    <div class="menu-icon_container" [class.change]="show" (click)="toggleMenuBar()">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -9,7 +9,7 @@
       <a href="home.html">KIOSKO</a>
     </h1>
   </div>
-  <div id="toggle-menu" class="toggle-menu">
+  <div class="toggle-menu" [class.show]="show" [class.hide]="hide">
     <div>
       <div class="menu-profileInfo_container">
         <a href="adjust.html">
@@ -19,7 +19,7 @@
         <p class="menu-profileInfo_moreinfo"></p>
       </div>
       <div class="toggle-menu_items-list">
-        <!-- <a onclick="goto()">
+        <a onclick="goto()">
           <i class="glyphicon glyphicon-heart"></i>Favoritos</a>
         <a href="descubre.html">
           <i class="glyphicon glyphicon-eye-open"></i>Descubre</a>
@@ -30,7 +30,7 @@
         <a href="adjustedit.html">
           <i class="glyphicon glyphicon-cog"></i>Ajustes</a>
         <a href="/index.html">
-          <i class="glyphicon glyphicon-remove"></i>Salir</a> -->
+          <i class="glyphicon glyphicon-remove"></i>Salir</a>
       </div>
     </div>
   </div>

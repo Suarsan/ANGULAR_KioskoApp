@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { DetailComponent } from './detail/detail.component';
 import { ViewComponent } from './view/view.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { CreditCardsComponent } from './creditcards/creditcards.component';
 
 export const routes: Routes = [
   { path: 'index', component: IndexComponent },
@@ -14,5 +15,6 @@ export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'magazine', component: DetailComponent },
   { path: 'view', component: ViewComponent },
+  { path: 'payments', component: CreditCardsComponent },
   { path: '**', component: NotfoundComponent },
 ];

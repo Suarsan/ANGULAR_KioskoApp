@@ -1,5 +1,6 @@
 import { MagazineModel } from './magazine.model';
 import { AddressModel } from './address.model';
+import { CreditCardModel } from './creditcard.model';
 
 export class UserModel {
 
@@ -14,10 +15,11 @@ export class UserModel {
   private recommendedMagazines: Array<string>;
   private cart: Array<string>;
   private downloadedMagazines: Array<string>;
+  private creditCards: Array<CreditCardModel>;
 
-  constructor( id: number,
-               email: string,
-               pass: string,
+  constructor( id?: number,
+               email?: string,
+               pass?: string,
                name?: string,
                lastName?: string,
                birthdate?: string,
@@ -25,7 +27,8 @@ export class UserModel {
                likedMagazines?: Array<string>,
                recommendedMagazines?: Array<string>,
                cart?: Array<string>,
-               downloadedMagazines?: Array<string>
+               downloadedMagazines?: Array<string>,
+               creditCards?: Array<CreditCardModel>
                 ) {
     this.id = id;
     this.email = email;
@@ -37,7 +40,8 @@ export class UserModel {
     likedMagazines === undefined ? this.likedMagazines = [] : this.likedMagazines = likedMagazines ;
     recommendedMagazines === undefined ? this.recommendedMagazines = [] : this.recommendedMagazines = recommendedMagazines;
     cart === undefined ? this.cart = [] : this.cart = cart ;
-    downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines; }
+    downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines;
+    creditCards === undefined ? this.creditCards = [] : this.creditCards = creditCards; }
 
   public get Id(): number {
     return this.id;
@@ -112,18 +116,25 @@ export class UserModel {
   }
 
   public get Cart(): Array<string> {
-    return this.likedMagazines;
+    return this.cart;
   }
 
   public set Cart(value: Array<string>) {
-    this.likedMagazines = value;
+    this.cart = value;
   }
 
   public get DownloadedMagazines(): Array<string> {
-    return this.likedMagazines;
+    return this.downloadedMagazines;
   }
 
   public set DownloadedMagazines(value: Array<string>) {
-    this.likedMagazines = value;
+    this.downloadedMagazines = value;
+  }
+  public get CreditCards(): Array<CreditCardModel> {
+    return this.creditCards;
+  }
+
+  public set CreditCards(value: Array<CreditCardModel>) {
+    this.creditCards = value;
   }
 }

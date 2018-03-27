@@ -1,20 +1,7 @@
 [
   {
-    "id": 3,
-    "email": "pepe@pepe.com",
-    "pass": "pepe",
-    "name": "",
-    "lastName": "",
-    "birthdate": "",
-    "addresses": [],
-    "likedMagazines": [],
-    "recommendedMagazines": [],
-    "cart": [],
-    "downloadedMagazines": []
-  },
-  {
-    "id": 4,
-    "email": "javier@javier.com",
+    "id": 1,
+    "email": "javier@kiosko.com",
     "pass": "javier",
     "name": "",
     "lastName": "",
@@ -23,6 +10,7 @@
     "likedMagazines": [],
     "recommendedMagazines": [],
     "cart": [],
-    "downloadedMagazines": []
+    "downloadedMagazines": [],
+    "creditCards": []
   }
 ]

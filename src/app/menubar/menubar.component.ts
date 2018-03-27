@@ -9,9 +9,22 @@ export class MenubarComponent implements OnInit {
 
   @Input() currentUser;
 
+  show = false;
+  hide = true;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public toggleMenuBar() {
+    if (!this.show) {
+      this.show = true;
+      this.hide = false;
+    } else {
+      this.show = false;
+      this.hide = true;
+    }
   }
 
   // ToggleMenubar() {

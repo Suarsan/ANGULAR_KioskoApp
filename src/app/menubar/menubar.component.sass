@@ -1,4 +1,4 @@
-@import _colors-vars
+@import '../../_colors-vars'
 
 nav
   height: 50px
@@ -23,7 +23,7 @@ h1
     color: rgba(240,240,240,1)
 
 .toggle-menu
-  display: inline
+  display: none
   position: absolute
   top: 50px
   left: 0
@@ -31,6 +31,10 @@ h1
   background-color: #000
   > div
     display: inline-block
+.show
+  display: inline-block
+.hide
+  display: none
 
 .toggle-menu_items-list
   float: left

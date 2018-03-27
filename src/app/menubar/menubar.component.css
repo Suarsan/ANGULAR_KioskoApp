@@ -20,7 +20,7 @@ h1 {
     color: #f0f0f0; }
 
 .toggle-menu {
-  display: inline;
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
@@ -28,6 +28,12 @@ h1 {
   background-color: #000; }
   .toggle-menu > div {
     display: inline-block; }
+
+.show {
+  display: inline-block; }
+
+.hide {
+  display: none; }
 
 .toggle-menu_items-list {
   float: left; }
@@ -66,7 +72,7 @@ h1 {
   margin-left: 30%;
   margin-top: 15px; }
 .menu-profileInfo_container p {
-  color: #eee;
+  color: #C8C8C8;
   text-align: center; }
 .menu-profileInfo_container .menu-profileInfo_username {
   font-size: 1.4em;

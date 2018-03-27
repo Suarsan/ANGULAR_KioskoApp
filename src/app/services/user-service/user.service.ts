@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { environment } from '../../../environments/environment';
 import { UserModel } from '../../models/user.model';
+import { CreditCardModel } from '../../models/creditcard.model';
 
 @Injectable()
 export class UserService {
@@ -29,5 +30,19 @@ export class UserService {
   }
   public findUserbyEmail (email: string) {
     return this.http.get<UserModel>(this.BASE_URL + '?email=' + email, this.options);
+  }
+  public addCreditCard (user: UserModel, creditCard: CreditCardModel) {
+    return new Observable(
+      observable => {
+        user.CreditCards.push(creditCard);
+        this.add(user).subscribe(
+          receiveduser => {
+            if (receiveduser) {
+              observable.next(receiveduser);
+            }
+          }
+        );
+      }
+    );
   }
 }

@@ -19,6 +19,9 @@ import { UserService } from './services/user-service/user.service';
 import { ViewComponent } from './view/view.component';
 import { IndexComponent } from './index/index.component';
 import { MenubarComponent } from './menubar/menubar.component';
+import { CreditCardsComponent } from './creditcards/creditcards.component';
+import { NewCreditCardComponent } from './components/newcreditcard/newcreditcard.component';
+import { ListCreditCardComponent } from './components/listcreditcard/listcreditcard.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { MenubarComponent } from './menubar/menubar.component';
     ViewComponent,
     IndexComponent,
     MenubarComponent,
+    CreditCardsComponent,
+    NewCreditCardComponent,
+    ListCreditCardComponent,
   ],
   imports: [
     BrowserModule,
