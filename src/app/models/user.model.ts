@@ -1,12 +1,13 @@
 import { MagazineModel } from './magazine.model';
 import { AddressModel } from './address.model';
-import { CreditCardModel } from './creditcard.model';
 
 export class UserModel {
 
   private id: number;
   private name: string;
   private lastName: string;
+  private boardSignature: string;
+  private thumbnail: string;
   private email: string;
   private pass: string;
   private birthdate: string;
@@ -15,33 +16,33 @@ export class UserModel {
   private recommendedMagazines: Array<string>;
   private cart: Array<string>;
   private downloadedMagazines: Array<string>;
-  private creditCards: Array<CreditCardModel>;
 
   constructor( id?: number,
                email?: string,
                pass?: string,
                name?: string,
                lastName?: string,
+               boardSignature?: string,
+               thumbnail?: string,
                birthdate?: string,
                addresses?: Array<AddressModel>,
                likedMagazines?: Array<string>,
                recommendedMagazines?: Array<string>,
                cart?: Array<string>,
-               downloadedMagazines?: Array<string>,
-               creditCards?: Array<CreditCardModel>
+               downloadedMagazines?: Array<string>
                 ) {
     this.id = id;
     this.email = email;
     this.pass = pass;
     name === undefined ? this.name = '' : this.name = name ;
     lastName === undefined ? this.lastName = '' : this.lastName = lastName ;
+    boardSignature === undefined ? this.boardSignature = '' : this.boardSignature = boardSignature ;
     birthdate === undefined ? this.birthdate = '' : this.birthdate = birthdate ;
     addresses === undefined ? this.addresses = [] : this.addresses = addresses ;
     likedMagazines === undefined ? this.likedMagazines = [] : this.likedMagazines = likedMagazines ;
     recommendedMagazines === undefined ? this.recommendedMagazines = [] : this.recommendedMagazines = recommendedMagazines;
     cart === undefined ? this.cart = [] : this.cart = cart ;
-    downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines;
-    creditCards === undefined ? this.creditCards = [] : this.creditCards = creditCards; }
+    downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines; }
 
   public get Id(): number {
     return this.id;
@@ -67,6 +68,14 @@ export class UserModel {
     this.lastName = value;
   }
 
+  public get BoardSignature(): string {
+    return this.boardSignature;
+  }
+
+  public set BoardSignature(value: string) {
+    this.boardSignature = value;
+  }
+
   public get Email(): string {
     return this.email;
   }
@@ -80,6 +89,14 @@ export class UserModel {
   }
 
   public set Pass(value: string) {
+    this.pass = value;
+  }
+
+  public get Thumbnail(): string {
+    return this.thumbnail;
+  }
+
+  public set Thumbnail(value: string) {
     this.pass = value;
   }
 
@@ -129,12 +146,5 @@ export class UserModel {
 
   public set DownloadedMagazines(value: Array<string>) {
     this.downloadedMagazines = value;
-  }
-  public get CreditCards(): Array<CreditCardModel> {
-    return this.creditCards;
-  }
-
-  public set CreditCards(value: Array<CreditCardModel>) {
-    this.creditCards = value;
   }
 }

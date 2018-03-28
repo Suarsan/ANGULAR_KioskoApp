@@ -1,4 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, SimpleChanges } from '@angular/core';
+import { UserModel } from '../models/user.model';
+import { Router } from '@angular/router';
+import { AuthService } from '../services/auth-service/auth.service';
+import { OnChanges } from '@angular/core/src/metadata/lifecycle_hooks';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-menubar',
@@ -7,15 +12,20 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MenubarComponent implements OnInit {
 
-  @Input() currentUser;
+  private WebServiceURL: string;
+  private currentUser: UserModel;
+  public show = false;
+  public hide = true;
 
-  show = false;
-  hide = true;
 
-  constructor() { }
+  constructor(private router: Router,
+              private authService: AuthService) {
+                this.authService.sessionManager(this.router);
+                this.currentUser = this.authService.currentUser;
+                this.WebServiceURL = environment.WebServiceURL;
+              }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   public toggleMenuBar() {
     if (!this.show) {
@@ -26,22 +36,5 @@ export class MenubarComponent implements OnInit {
       this.hide = true;
     }
   }
-
-  // ToggleMenubar() {
-  //   switch (window.getComputedStyle(document.getElementById('toggle-menu'), 'display').getPropertyValue('display')) {
-  //       default:
-  //           document.getElementById('toggle-menu').style.setProperty('display', 'none');
-  //           $('nav h1').show();
-  //       break;
-  //       case 'none':
-  //           document.getElementById('toggle-menu').style.setProperty('display', 'inline-block');
-  //           $('nav h1').hide();
-  //           var currentUser = JSON.parse(localStorage.getItem('kioskoUser'));
-  //           console.log(currentUser.email);
-  //           $('.menu-profileInfo_username').text(currentUser.email);
-  //           $('.menu-profileInfo_moreinfo').text(currentUser.name + ' ' + currentUser.lastName);
-  //       break;
-  //   }
-  // }
 
 }

@@ -101,7 +101,8 @@ const lstServicio = [
   { url: '/vehiculos', pk: 'id', fich: __dirname + '/data/vehiculos.json', readonly: false },
   { url: '/marcas', pk: 'marca', fich: __dirname + '/data/marcas-modelos.json', readonly: false },
   { url: '/usuarios', pk: 'id', fich: __dirname + '/data/usuarios.json', readonly: false },
-  { url: '/magazines', pk: 'id', fich: __dirname + '/data/magazines.json', readonly: false }
+  { url: '/magazines', pk: 'id', fich: __dirname + '/data/magazines.json', readonly: false },
+  { url: '/wallets', pk: 'userId', fich: __dirname + '/data/wallets.json', readonly: false }
 
 ]
 
@@ -191,6 +192,7 @@ lstServicio.forEach(servicio => {
     fs.readFile(servicio.fich, 'utf8', function (err, data) {
       var lst = JSON.parse(data)
       var ele = req.body
+      console.log(ele);
 
       var ind = lst.findIndex(row => row[servicio.pk] == ele.id)
       if (ind == -1) {

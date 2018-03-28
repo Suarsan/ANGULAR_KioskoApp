@@ -12,11 +12,11 @@
   <div class="toggle-menu" [class.show]="show" [class.hide]="hide">
     <div>
       <div class="menu-profileInfo_container">
-        <a href="adjust.html">
-          <img src="assets/images/jon.jpg" alt="" class="img-circle">
+        <a href="">
+          <img src="{{WebServiceURL}}{{currentUser?.Thumbnail}}" alt="{{currentUser?.Name}} {{currentUser?.LastName}}" class="img-circle">
         </a>
-        <p class="menu-profileInfo_username"></p>
-        <p class="menu-profileInfo_moreinfo"></p>
+        <p class="menu-profileInfo_username">{{currentUser?.Name}} {{currentUser?.LastName}}</p>
+        <p class="menu-profileInfo_moreinfo">{{currentUser?.BoardSignature}}</p>
       </div>
       <div class="toggle-menu_items-list">
         <a onclick="goto()">

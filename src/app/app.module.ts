@@ -16,12 +16,16 @@ import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
 import { AuthService } from './services/auth-service/auth.service';
 import { UserService } from './services/user-service/user.service';
+import { UserDaoService } from '../dao/user-dao/user-dao.service';
 import { ViewComponent } from './view/view.component';
 import { IndexComponent } from './index/index.component';
 import { MenubarComponent } from './menubar/menubar.component';
 import { CreditCardsComponent } from './creditcards/creditcards.component';
 import { NewCreditCardComponent } from './components/newcreditcard/newcreditcard.component';
 import { ListCreditCardComponent } from './components/listcreditcard/listcreditcard.component';
+import { environment } from '../environments/environment';
+import { WalletDaoService } from '../dao/wallet-dao/wallet-dao.service';
+import { WalletService } from './services/wallet-service/wallet.service';
 
 @NgModule({
   declarations: [
@@ -47,7 +51,8 @@ import { ListCreditCardComponent } from './components/listcreditcard/listcreditc
     HttpClientModule,
     RouterModule.forRoot(routes),
   ],
-  providers: [MagazineService, AuthService, UserService],
+  providers: [MagazineService, AuthService, UserService, WalletService,
+              UserDaoService, WalletDaoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

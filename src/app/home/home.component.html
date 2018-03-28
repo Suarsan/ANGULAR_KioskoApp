@@ -1,9 +1,10 @@
 <div class="row">
-  <app-menubar [currentUser]="currentUser"></app-menubar>
-  <h1>
-    HOMEPAGE
-  </h1>
-  <h3>Email: {{currentUser?.email}} </h3>
-  <a [routerLink]="['/magazine']">Ir a detalle</a>
+  <app-menubar></app-menubar>
+  <div class="col-xs-12 top-margin">
+    <h1>
+      HOMEPAGE
+    </h1>
+    <h3>Email: {{currentUser?.email}} </h3>
+    <a [routerLink]="['/magazine']">Ir a detalle</a>
+  </div>
 </div>
-

@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../services/auth-service/auth.service';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserModel } from '../models/user.model';
 import { MenubarComponent } from '../menubar/menubar.component';
+import { UserService } from '../services/user-service/user.service';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -11,18 +14,17 @@ import { MenubarComponent } from '../menubar/menubar.component';
 
 export class HomeComponent implements OnInit {
 
+  private WebServiceURL: string;
   private currentUser: UserModel;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router,
+              private authService: AuthService,
+              private userService: UserService) {
+                this.WebServiceURL = environment.WebServiceURL;
+                this.currentUser = this.authService.currentUser;
+              }
 
   ngOnInit() {
-    try {
-      this.currentUser = JSON.parse(localStorage.getItem('kioskoUser'));
-      if (!this.currentUser) {
-        this.router.navigate(['/signup']);
-      }
-    } catch {
-      this.router.navigate(['/signup']);
-    }
+    console.log(this.currentUser);
   }
 }

@@ -1,9 +1,9 @@
 import { UserModel } from '../models/user.model';
 import { Component, OnInit } from '@angular/core';
-import { CreditCardModel } from '../models/creditcard.model';
 import { NewCreditCardComponent } from '../components/newcreditcard/newcreditcard.component';
 import { ListCreditCardComponent } from '../components/listcreditcard/listcreditcard.component';
-import { Router } from '@angular/router';
+import { UserDaoService } from '../../dao/user-dao/user-dao.service';
+import { AuthService } from '../services/auth-service/auth.service';
 
 @Component({
   selector: 'app-creditcards',
@@ -14,19 +14,11 @@ export class CreditCardsComponent implements OnInit {
 
   private currentUser: UserModel;
 
-  constructor(private router: Router) {
-    this.currentUser = new UserModel();
+  constructor(private userService: AuthService) {
+    this.currentUser = userService.currentUser;
   }
 
   ngOnInit() {
-    try {
-      Object.assign(this.currentUser, JSON.parse(localStorage.getItem('kioskoUser')));
-      if (!this.currentUser) {
-        this.router.navigate(['/signup']);
-      }
-    } catch {
-      this.router.navigate(['/signup']);
-    }
   }
 
 }

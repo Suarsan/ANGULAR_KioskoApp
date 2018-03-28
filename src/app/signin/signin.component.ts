@@ -14,10 +14,10 @@ export class SigninComponent implements OnInit {
   private pass: string;
   private user: UserModel;
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor(private authService: AuthService,
+              private router: Router) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   private signIn() {
     this.authService.signIn(this.email, this.pass).subscribe(

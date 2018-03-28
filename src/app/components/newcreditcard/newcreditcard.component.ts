@@ -1,7 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { UserModel } from '../../models/user.model';
-import { CreditCardModel } from '../../models/creditcard.model';
+import { CreditcardModel } from '../../models/creditcard.model';
+import { UserDaoService } from '../../../dao/user-dao/user-dao.service';
 import { UserService } from '../../services/user-service/user.service';
+import { AuthService } from '../../services/auth-service/auth.service';
+import { WalletModel } from '../../models/wallet.model';
+import { WalletService } from '../../services/wallet-service/wallet.service';
 
 @Component({
   selector: 'app-newcreditcard',
@@ -10,31 +14,41 @@ import { UserService } from '../../services/user-service/user.service';
 })
 export class NewCreditCardComponent implements OnInit {
 
-  @Input() private currentUser: UserModel;
-  private creditCard: CreditCardModel;
+  private currentUser: UserModel;
+  private wallet: WalletModel;
+  public creditcard: CreditcardModel;
 
-  constructor(private userService: UserService) { }
+  constructor(private userDaoService: UserDaoService,
+              private userService: UserService,
+              private authService: AuthService,
+              private walletService: WalletService) {
+                this.currentUser = this.authService.currentUser;
+                this.creditcard = new CreditcardModel();
+
+              }
 
   ngOnInit() {
-    this.creditCard = new CreditCardModel();
   }
-
-  addCreditCard() {
-    this.userService.get(this.currentUser.Id).subscribe(
-      user => {
-        Object.assign(this.currentUser, JSON.parse(localStorage.getItem('kioskoUser')));
-        this.userService.addCreditCard(this.currentUser, this.creditCard).subscribe(
-          receivedUser => {
-            console.log(receivedUser);
-          }
-        );
+  getCreditCards() {
+    this.walletService.getWallet(this.currentUser).subscribe(
+      wallet => {
+        console.log('getCreditCards hechoo');
       }
     );
-    // this.userService.addCreditCard(this.currentUser, this.creditCard).subscribe(
-    //   creditCard => {
-    //     //Pedir que refresque el componente que lista las tarjetas
-    //   }
-    // );
   }
+  addCreditCard() {
+    this.walletService.addCreditCard(this.currentUser, this.creditcard).subscribe(
+      wallet => {
+        if (wallet) {
+          console.dir(wallet);
+        console.log('hecho');
+        } else {
+          console.log('hay que crear uno');
+        }
+
+      }
+    );
+  }
+
 
 }

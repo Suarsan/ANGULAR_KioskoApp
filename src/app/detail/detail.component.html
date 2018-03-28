@@ -1,4 +1,7 @@
 <div class="row">
-  <app-magazine-preview [currentMagazine]="currentMagazine" [routerLink]="['/view']" class="col-xs-12"></app-magazine-preview>
-  <app-magazine-rating class="col-xs-12"></app-magazine-rating>
+  <app-menubar></app-menubar>
+  <div class="col-xs-12 top-margin">
+      <app-magazine-preview [currentMagazine]="currentMagazine" [routerLink]="['/view']" class="col-xs-12"></app-magazine-preview>
+      <app-magazine-rating class="col-xs-12"></app-magazine-rating>
+  </div>
 </div>

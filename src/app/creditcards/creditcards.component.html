@@ -1,7 +1,13 @@
 <div class="row">
-  <div class="col-xs-12">
-    <h1>Payments</h1>
-    <app-listcreditcard [currentUser]="currentUser"></app-listcreditcard>
-    <app-newcreditcard [currentUser]="currentUser"></app-newcreditcard>
+  <app-menubar></app-menubar>
+  <div class="col-xs-12  top-margin">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Payments</h1>
+        <app-listcreditcard></app-listcreditcard>
+        <app-newcreditcard></app-newcreditcard>
+      </div>
+    </div>
   </div>
 </div>
+

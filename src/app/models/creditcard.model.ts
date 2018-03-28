@@ -1,32 +1,31 @@
-export class CreditCardModel {
-  private id: string;
+export class CreditcardModel {
+  private userId: string;
   private owner: string;
-  private accountNumber: string;
+  private creditcardNumber: string;
   private expirationDate: string;
   private securityCode: number;
 
   constructor(
-    id?: string,
+    userId?: string,
     owner?: string,
-    accountNumber?: string,
+    creditcardNumber?: string,
     expirationDate?: string,
     securityCode?: number
   ) {
-    this.id = id;
+    this.userId = userId;
     this.owner = owner;
-    this.accountNumber = accountNumber;
+    this.creditcardNumber = creditcardNumber;
     this.expirationDate = expirationDate;
     this.securityCode = securityCode;
   }
 
-  public get Id(): string {
-    return this.id;
+  public get UserId(): string {
+    return this.owner;
   }
 
-  public set Id(value: string) {
-    this.id = value;
+  public set UserId(value: string) {
+    this.owner = value;
   }
-
   public get Owner(): string {
     return this.owner;
   }
@@ -35,12 +34,12 @@ export class CreditCardModel {
     this.owner = value;
   }
 
-  public get AccountNumber(): string {
-    return this.accountNumber;
+  public get CreditcardNumber(): string {
+    return this.creditcardNumber;
   }
 
-  public set AccountNumber(value: string) {
-    this.accountNumber = value;
+  public set CreditcardNumber(value: string) {
+    this.creditcardNumber = value;
   }
 
   public get ExpirationDate(): string {
@@ -54,7 +53,7 @@ export class CreditCardModel {
     return this.securityCode;
   }
 
-  public set SecurityCOde(value: number) {
+  public set SecurityCode(value: number) {
     this.securityCode = value;
   }
 }

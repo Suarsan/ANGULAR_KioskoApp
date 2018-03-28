@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CreditCardModel } from '../../models/creditcard.model';
 import { UserService } from '../../services/user-service/user.service';
 
 @Component({
@@ -9,9 +8,9 @@ import { UserService } from '../../services/user-service/user.service';
 })
 export class ListCreditCardComponent implements OnInit {
 
-  @Input() private currentUser: Array<CreditCardModel>;
 
-  constructor(private userService: UserService) { }
+
+  constructor() { }
 
   ngOnInit() {
 
