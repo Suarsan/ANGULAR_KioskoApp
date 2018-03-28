@@ -1,20 +1,20 @@
 import { CreditcardModel } from './creditcard.model';
 
 export class WalletModel {
-  private userId: string;
+  private userId: string | number;
   private creditcards: Array<CreditcardModel>;
 
-  constructor(userId: string, creditcards: Array<CreditcardModel>) {
+  constructor(userId: string | number, creditcards: Array<CreditcardModel>) {
     this.userId = userId;
     creditcards === undefined ? this.creditcards = [] : this.creditcards = creditcards;
   }
 
 
-	public get UserId(): string {
+	public get UserId(): string | number {
 		return this.userId;
 	}
 
-	public set UserId(value: string) {
+	public set UserId(value: string | number) {
 		this.userId = value;
 	}
 

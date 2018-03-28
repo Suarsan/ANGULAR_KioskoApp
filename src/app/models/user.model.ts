@@ -3,7 +3,7 @@ import { AddressModel } from './address.model';
 
 export class UserModel {
 
-  private id: number;
+  private id: string | number;
   private name: string;
   private lastName: string;
   private boardSignature: string;
@@ -17,7 +17,7 @@ export class UserModel {
   private cart: Array<string>;
   private downloadedMagazines: Array<string>;
 
-  constructor( id?: number,
+  constructor( id?: string | number,
                email?: string,
                pass?: string,
                name?: string,
@@ -44,11 +44,11 @@ export class UserModel {
     cart === undefined ? this.cart = [] : this.cart = cart ;
     downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines; }
 
-  public get Id(): number {
+  public get Id(): string | number {
     return this.id;
   }
 
-  public set Id(value: number) {
+  public set Id(value: string | number) {
     this.id = value;
   }
 

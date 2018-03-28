@@ -37,6 +37,7 @@ export class NewCreditCardComponent implements OnInit {
     );
   }
   addCreditCard() {
+    this.creditcard.UserId = this.currentUser.Id;
     this.walletService.addCreditCard(this.currentUser, this.creditcard).subscribe(
       wallet => {
         if (wallet) {
