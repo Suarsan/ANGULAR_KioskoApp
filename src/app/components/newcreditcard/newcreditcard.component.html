@@ -1,11 +1,11 @@
 <div class="row">
   <label for="owner"></label>
-  <input id="owner" type="text" placeholder="XXXX XXXX" [(ngModel)]="creditcard.Owner">
+  <input id="owner" type="text" placeholder="Lorem ipsum" [(ngModel)]="creditcard.Owner">
   <label for="accountnumber"></label>
   <input id="accountnumber" type="text" placeholder="XXXX XXXX XXXX XXXX" [(ngModel)]="creditcard.AccountNumber">
   <label for="expirationdate"></label>
-  <input id="expirationdate" type="text" placeholder="" [(ngModel)]="creditcard.ExpirationDate">
+  <input id="expirationdate" type="text" placeholder="XX/XXXX" [(ngModel)]="creditcard.ExpirationDate">
   <label for="CVV"></label>
-  <input id="CVV" type="text" placeholder="" [(ngModel)]="creditcard.SecurityCode">
+  <input id="CVV" type="text" placeholder="XXX" [(ngModel)]="creditcard.SecurityCode">
   <button class="btn" (click)="addCreditCard()">Añadir</button>
 </div>

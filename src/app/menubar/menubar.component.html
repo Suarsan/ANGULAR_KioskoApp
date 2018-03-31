@@ -6,30 +6,30 @@
       <div class="bar3"></div>
     </div>
     <h1>
-      <a href="home.html">KIOSKO</a>
+      <a [routerLink]="['/']">KIOSKO</a>
     </h1>
   </div>
   <div class="toggle-menu" [class.show]="show" [class.hide]="hide">
     <div>
       <div class="menu-profileInfo_container">
-        <a href="">
+        <a [routerLink]="['/profile']">
           <img src="{{WebServiceURL}}{{currentUser?.Thumbnail}}" alt="{{currentUser?.Name}} {{currentUser?.LastName}}" class="img-circle">
         </a>
         <p class="menu-profileInfo_username">{{currentUser?.Name}} {{currentUser?.LastName}}</p>
         <p class="menu-profileInfo_moreinfo">{{currentUser?.BoardSignature}}</p>
       </div>
       <div class="toggle-menu_items-list">
-        <a onclick="goto()">
+        <a [routerLink]="['/favs']">
           <i class="glyphicon glyphicon-heart"></i>Favoritos</a>
-        <a href="descubre.html">
+        <a [routerLink]="['/recommended']">
           <i class="glyphicon glyphicon-eye-open"></i>Descubre</a>
-        <a href="categorias.html">
+        <a [routerLink]="['/categories']">
           <i class="glyphicon glyphicon-cloud"></i>Categorias</a>
-        <a href="carrito.html">
+        <a [routerLink]="['/cart']">
           <i class="glyphicon glyphicon-shopping-cart"></i>Cesta</a>
-        <a href="adjustedit.html">
+        <a [routerLink]="['/profile']">
           <i class="glyphicon glyphicon-cog"></i>Ajustes</a>
-        <a href="/index.html">
+        <a (click)="exit()">
           <i class="glyphicon glyphicon-remove"></i>Salir</a>
       </div>
     </div>

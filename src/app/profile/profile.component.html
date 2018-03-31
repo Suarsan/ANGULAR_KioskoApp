@@ -1,0 +1,48 @@
+<div class="row">
+  <app-menubar></app-menubar>
+  <div class="col-xs-12 top-margin">
+    <div class="row">
+      <div class="col-xs-offset-2 col-xs-8">
+          <img src="{{WebServiceURL}}{{currentUser?.Thumbnail}}" alt="{{currentUser?.Name}} {{currentUser?.LastName}}" class="img-circle center-block">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10">
+        <input type="text" [(ngModel)]="currentUser.Name" class="col-xs-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10">
+        <input type="text" [(ngModel)]="currentUser.LastName" class="col-xs-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10">
+        <input type="text" [(ngModel)]="currentUser.BoardSignature" class="col-xs-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10">
+        <input type="text" [(ngModel)]="currentUser.Birthdate" class="col-xs-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10">
+        <input type="text" [(ngModel)]="currentUser.Email" class="col-xs-12" [readonly]="disabled">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-10">
+        <input type="text" [(ngModel)]="currentUser.Pass" class="col-xs-12" [readonly]="disabled">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-offset-1 col-xs-5">
+        <button type="button" class="btn btn-default col-xs-12" (click)="gotoMyAdresses()">Mis direcciones</button>
+      </div>
+      <div class="col-xs-5">
+        <button type="button" class="btn btn-default col-xs-12" (click)="gotoMyWallet()">Métodos de pago</button>
+      </div>
+    </div>
+  </div>
+</div>

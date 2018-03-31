@@ -6,11 +6,11 @@ import { UserDaoService } from '../../dao/user-dao/user-dao.service';
 import { AuthService } from '../services/auth-service/auth.service';
 
 @Component({
-  selector: 'app-creditcards',
-  templateUrl: './creditcards.component.html',
-  styleUrls: ['./creditcards.component.sass']
+  selector: 'app-wallet',
+  templateUrl: './wallet.component.html',
+  styleUrls: ['./wallet.component.sass']
 })
-export class CreditCardsComponent implements OnInit {
+export class WalletComponent implements OnInit {
 
   private currentUser: UserModel;
 
@@ -18,7 +18,6 @@ export class CreditCardsComponent implements OnInit {
     this.currentUser = userService.currentUser;
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

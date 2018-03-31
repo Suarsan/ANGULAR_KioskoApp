@@ -1,37 +1,27 @@
 export class CreditcardModel {
-  private userId: string;
-  private owner: string;
+  private ownerName: string;
   private creditcardNumber: string;
   private expirationDate: string;
-  private securityCode: number;
+  private securityCode: string;
 
   constructor(
-    userId?: string,
-    owner?: string,
+    ownerName?: string,
     creditcardNumber?: string,
     expirationDate?: string,
-    securityCode?: number
+    securityCode?: string
   ) {
-    this.userId = userId;
-    this.owner = owner;
+    this.ownerName = ownerName;
     this.creditcardNumber = creditcardNumber;
     this.expirationDate = expirationDate;
     this.securityCode = securityCode;
   }
 
-  public get UserId(): string {
-    return this.owner;
-  }
-
-  public set UserId(value: string) {
-    this.owner = value;
-  }
   public get Owner(): string {
-    return this.owner;
+    return this.ownerName;
   }
 
   public set Owner(value: string) {
-    this.owner = value;
+    this.ownerName = value;
   }
 
   public get CreditcardNumber(): string {
@@ -49,11 +39,11 @@ export class CreditcardModel {
   public set ExpirationDate(value: string) {
     this.expirationDate = value;
   }
-  public get SecurityCode(): number {
+  public get SecurityCode(): string {
     return this.securityCode;
   }
 
-  public set SecurityCode(value: number) {
+  public set SecurityCode(value: string) {
     this.securityCode = value;
   }
 }

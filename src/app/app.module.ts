@@ -20,12 +20,15 @@ import { UserDaoService } from '../dao/user-dao/user-dao.service';
 import { ViewComponent } from './view/view.component';
 import { IndexComponent } from './index/index.component';
 import { MenubarComponent } from './menubar/menubar.component';
-import { CreditCardsComponent } from './creditcards/creditcards.component';
+import { WalletComponent } from './wallet/wallet.component';
 import { NewCreditCardComponent } from './components/newcreditcard/newcreditcard.component';
 import { ListCreditCardComponent } from './components/listcreditcard/listcreditcard.component';
 import { environment } from '../environments/environment';
 import { WalletDaoService } from '../dao/wallet-dao/wallet-dao.service';
 import { WalletService } from './services/wallet-service/wallet.service';
+import { ProfileComponent } from './profile/profile.component';
+import { AdressesComponent } from './adresses/adresses.component';
+import { ImageUploadModule } from 'angular2-image-upload';
 
 @NgModule({
   declarations: [
@@ -40,15 +43,18 @@ import { WalletService } from './services/wallet-service/wallet.service';
     ViewComponent,
     IndexComponent,
     MenubarComponent,
-    CreditCardsComponent,
+    WalletComponent,
     NewCreditCardComponent,
     ListCreditCardComponent,
+    ProfileComponent,
+    AdressesComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BarRatingModule,
     HttpClientModule,
+    ImageUploadModule.forRoot(),
     RouterModule.forRoot(routes),
   ],
   providers: [MagazineService, AuthService, UserService, WalletService,

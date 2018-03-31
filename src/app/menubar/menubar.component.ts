@@ -20,7 +20,7 @@ export class MenubarComponent implements OnInit {
 
   constructor(private router: Router,
               private authService: AuthService) {
-                this.authService.sessionManager(this.router);
+                authService.sessionManager();
                 this.currentUser = this.authService.currentUser;
                 this.WebServiceURL = environment.WebServiceURL;
               }
@@ -35,6 +35,10 @@ export class MenubarComponent implements OnInit {
       this.show = false;
       this.hide = true;
     }
+  }
+  private exit() {
+    console.log("asdd");
+    this.authService.signOut();
   }
 
 }

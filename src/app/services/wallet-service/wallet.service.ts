@@ -1,4 +1,4 @@
-import {CreditcardModel} from '../../models/creditcard.model';
+import { CreditcardModel } from '../../models/creditcard.model';
 import { Injectable } from '@angular/core';
 import { UserService } from '../user-service/user.service';
 import { Observable } from 'rxjs/Observable';
@@ -10,10 +10,10 @@ export class WalletService {
 
   constructor(private walletDAO: WalletDaoService) { }
 
-  getWallet(userId) {
-    return new Observable<WalletModel>(
+  getWalletByUserId(userId) {
+    return new Observable<WalletModel[]>(
       observable => {
-        this.walletDAO.get(userId).subscribe(
+        this.walletDAO.getProperty('userId', userId).subscribe(
           wallet => {
             observable.next(wallet);
           },
@@ -26,20 +26,24 @@ export class WalletService {
   }
 
   addCreditCard(user, creditcard) {
+    let auxWallet: WalletModel;
     return new Observable(
       observable => {
-        this.getWallet(user.Id).subscribe(
-          auxWallet => {
-            if (auxWallet) {
+        this.getWalletByUserId(user.Id).subscribe(
+          res => {
+            if (res.length > 0) {
+              auxWallet = new WalletModel(0);
+              Object.assign(auxWallet, res);
               auxWallet.Creditcards.push(creditcard);
-              this.walletDAO.change(auxWallet).subscribe(
+              this.walletDAO.change(auxWallet.Id, auxWallet).subscribe(
                 wallet => {
                   observable.next(wallet);
                 }
               );
             } else {
-              console.log('no hay wallet, hay que crear uno');
-              auxWallet = new WalletModel(user.Id, new Array<CreditcardModel>());
+              auxWallet = new WalletModel(0);
+              // auxWallet.UserId(user.Id);
+              // auxWallet.Creditcards(new Array<CreditcardModel>());
               auxWallet.pushCreditcard(creditcard);
               this.walletDAO.add(auxWallet).subscribe(
                 wallet => {

@@ -102,7 +102,7 @@ const lstServicio = [
   { url: '/marcas', pk: 'marca', fich: __dirname + '/data/marcas-modelos.json', readonly: false },
   { url: '/usuarios', pk: 'id', fich: __dirname + '/data/usuarios.json', readonly: false },
   { url: '/magazines', pk: 'id', fich: __dirname + '/data/magazines.json', readonly: false },
-  { url: '/wallets', pk: 'userId', fich: __dirname + '/data/wallets.json', readonly: false }
+  { url: '/wallets', pk: 'id', fich: __dirname + '/data/wallets.json', readonly: false }
 
 ]
 
@@ -161,7 +161,7 @@ lstServicio.forEach(servicio => {
     console.log("en post");
     if (!isAutenticated(servicio.readonly, req, res)) return
     fs.readFile(servicio.fich, 'utf8', function (err, data) {
-      console.log(data)
+      console.log(req.body)
       var lst = JSON.parse(data)
       var ele = req.body
 
