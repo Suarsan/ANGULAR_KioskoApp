@@ -29,6 +29,7 @@ import { WalletService } from './services/wallet-service/wallet.service';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
 import { ImageUploadModule } from 'angular2-image-upload';
+import { MagazineCarouselComponent } from './components/magazine-carousel/magazine-carousel.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ImageUploadModule } from 'angular2-image-upload';
     ListCreditCardComponent,
     ProfileComponent,
     AdressesComponent,
+    MagazineCarouselComponent,
   ],
   imports: [
     BrowserModule,
