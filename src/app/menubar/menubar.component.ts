@@ -37,7 +37,7 @@ export class MenubarComponent implements OnInit {
     }
   }
   private exit() {
-    console.log("asdd");
+    console.log('asdd');
     this.authService.signOut();
   }
 
