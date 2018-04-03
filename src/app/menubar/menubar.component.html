@@ -1,0 +1,37 @@
+<nav>
+  <div>
+    <div class="menu-icon_container" [class.change]="show" (click)="toggleMenuBar()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <h1>
+      <a [routerLink]="['/']">KIOSKO</a>
+    </h1>
+  </div>
+  <div class="toggle-menu" [class.show]="show" [class.hide]="hide">
+    <div>
+      <div class="menu-profileInfo_container">
+        <a [routerLink]="['/profile']">
+          <img src="{{WebServiceURL}}{{currentUser?.Thumbnail}}" alt="{{currentUser?.Name}} {{currentUser?.LastName}}" class="img-circle">
+        </a>
+        <p class="menu-profileInfo_username">{{currentUser?.Name}} {{currentUser?.LastName}}</p>
+        <p class="menu-profileInfo_moreinfo">{{currentUser?.BoardSignature}}</p>
+      </div>
+      <div class="toggle-menu_items-list">
+        <a [routerLink]="['/favs']">
+          <i class="glyphicon glyphicon-heart"></i>Favoritos</a>
+        <a [routerLink]="['/recommended']">
+          <i class="glyphicon glyphicon-eye-open"></i>Descubre</a>
+        <a [routerLink]="['/categories']">
+          <i class="glyphicon glyphicon-cloud"></i>Categorias</a>
+        <a [routerLink]="['/cart']">
+          <i class="glyphicon glyphicon-shopping-cart"></i>Cesta</a>
+        <a [routerLink]="['/profile']">
+          <i class="glyphicon glyphicon-cog"></i>Ajustes</a>
+        <a (click)="exit()">
+          <i class="glyphicon glyphicon-remove"></i>Salir</a>
+      </div>
+    </div>
+  </div>
+</nav>
