@@ -28,33 +28,31 @@ import { WalletDaoService } from '../dao/wallet-dao/wallet-dao.service';
 import { WalletService } from './services/wallet-service/wallet.service';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
-import { ImageUploadModule } from 'angular2-image-upload';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DetailComponent,
-    MagazineRatingComponent,
-    MagazinePreviewComponent,
-    HomeComponent,
     SignupComponent,
     SigninComponent,
-    NotfoundComponent,
-    ViewComponent,
     IndexComponent,
-    MenubarComponent,
+    HomeComponent,
+    DetailComponent,
+    ViewComponent,
     WalletComponent,
+    AdressesComponent,
+    MenubarComponent,
+    ProfileComponent,
+    MagazineRatingComponent,
+    MagazinePreviewComponent,
     NewCreditCardComponent,
     ListCreditCardComponent,
-    ProfileComponent,
-    AdressesComponent,
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BarRatingModule,
     HttpClientModule,
-    ImageUploadModule.forRoot(),
     RouterModule.forRoot(routes),
   ],
   providers: [MagazineService, AuthService, UserService, WalletService,
