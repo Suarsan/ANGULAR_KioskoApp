@@ -28,6 +28,7 @@ import { WalletDaoService } from '../dao/wallet-dao/wallet-dao.service';
 import { WalletService } from './services/wallet-service/wallet.service';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
+import { MagazineCarouselComponent } from './components/magazine-carousel/magazine-carousel.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { AdressesComponent } from './adresses/adresses.component';
     NewCreditCardComponent,
     ListCreditCardComponent,
     NotfoundComponent,
+    MagazineCarouselComponent
   ],
   imports: [
     BrowserModule,
