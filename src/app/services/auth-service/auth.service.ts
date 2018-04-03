@@ -11,7 +11,8 @@ export class AuthService {
   public currentUser: UserModel;
 
   constructor(private userDAO: UserDaoService,
-              private userService: UserService ) {
+              private userService: UserService,
+              private router: Router) {
     this.currentUser = new UserModel();
   }
 
@@ -40,16 +41,20 @@ export class AuthService {
       }
     );
   }
+  public signOut() {
+    localStorage.removeItem('kioskoUser');
+    this.router.navigate(['/index']);
+  }
 
-  public sessionManager(router) {
+  public sessionManager() {
     try {
       if (localStorage.getItem('kioskoUser')) {
         Object.assign(this.currentUser, JSON.parse(localStorage.getItem('kioskoUser')));
       } else {
-        router.navigate(['/signup']);
+        this.router.navigate(['/signup']);
       }
     } catch {
-      router.navigate(['/signup']);
+      this.router.navigate(['/signup']);
     }
   }
 }

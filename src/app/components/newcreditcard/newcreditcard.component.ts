@@ -27,22 +27,21 @@ export class NewCreditCardComponent implements OnInit {
 
               }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+
   getCreditCards() {
-    this.walletService.getWallet(this.currentUser).subscribe(
+    this.walletService.getWalletByUserId(this.currentUser).subscribe(
       wallet => {
         console.log('getCreditCards hechoo');
       }
     );
   }
   addCreditCard() {
-    this.creditcard.UserId = this.currentUser.Id;
     this.walletService.addCreditCard(this.currentUser, this.creditcard).subscribe(
       wallet => {
         if (wallet) {
           console.dir(wallet);
-        console.log('hecho');
+          console.log('hecho');
         } else {
           console.log('hay que crear uno');
         }

@@ -2,7 +2,7 @@ import { PublisherModel } from './publisher.model';
 
 export class MagazineModel {
 
-  private _id: string;
+  private _id: string | number;
   private _title: string;
   private _owner: PublisherModel;
   private _description: string;
@@ -12,7 +12,15 @@ export class MagazineModel {
   private _contentUrl: Array<string>;
   private _rating: number;
 
-  constructor(id: string, title: string, owner: PublisherModel, description: string, tags: Array<string>, thumbnail: Array<string>, downloadURL: Array<string>, contentUrl: Array<string>, rating: number) {
+  constructor(id: string | number,
+              title: string,
+              owner: PublisherModel,
+              description: string,
+              tags: Array<string>,
+              thumbnail: Array<string>,
+              downloadURL: Array<string>,
+              contentUrl: Array<string>,
+              rating: number) {
     this._id = id;
     this._title = title;
     this._owner = owner;
@@ -23,11 +31,11 @@ export class MagazineModel {
     this._contentUrl = contentUrl;
     this._rating = rating; }
 
-  public get Id(): string {
+  public get Id(): string | number {
     return this._id;
   }
 
-  public set Id(value: string) {
+  public set Id(value: string | number) {
     this._id = value;
   }
 

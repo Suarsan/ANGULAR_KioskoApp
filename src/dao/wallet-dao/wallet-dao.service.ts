@@ -18,13 +18,13 @@ export class WalletDaoService {
     return this.http.get<WalletModel>(this.BASE_URL + '/' + id, this.options);
   }
   public getProperty (property: string, value: string) {
-    return this.http.get<WalletModel>(this.BASE_URL + '/?' + property + '='  + value, this.options);
+    return this.http.get<WalletModel[]>(this.BASE_URL + '/?' + property + '='  + value, this.options);
   }
   public add (item: WalletModel) {
     return this.http.post<WalletModel>(this.BASE_URL, item, this.options);
   }
-  public change (item: WalletModel) {
-    return this.http.put<WalletModel>(this.BASE_URL, item, this.options);
+  public change (id, item: WalletModel) {
+    return this.http.put<WalletModel>(this.BASE_URL + '/' + id, item, this.options);
   }
   public remove (id: string | number) {
     return this.http.delete<WalletModel>(this.BASE_URL + '/id' + id, this.options);
