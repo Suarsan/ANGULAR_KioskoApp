@@ -1,15 +1,72 @@
-<div class="row">
-  <div class="col-xs-12">
-    <h1>INDEX</h1>
+<header class="menuIndex">
+  <div class="row">
+    <button [routerLink]="['/signin']" id="loginBtn" class="col-xs-4 col-xs-offset-1 btn" type="button">Login</button>
+    <button [routerLink]="['/signup']" id="registerBtn" class="col-xs-4 col-xs-offset-2 btn" type="button">Regístrate</button>
   </div>
-</div>
-<div class="row">
-  <div class="col-xs-12">
-    <button [routerLink]="['/signin']">SignIn</button>
+</header>
+
+<main class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 indexTittle">KIOSKO
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="col-xs-12">
-    <button [routerLink]="['/signup']">SignUp</button>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 indexMainText">
+      <div class="row">
+        <p>Una nueva forma de leer tus revistas y libros favoritos en el momento que quieras.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 indexImg">
+        <div class="row">
+          <img class="img-responsive" src="{{WebServiceURL}}/assets/webImages/ebook-3089013_1920.jpg">
+        </div>
+      </div>
+      <div class="col-xs-12 indexText">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus risus, suscipit eget ullamcorper quis, posuere
+          at leo. Suspendisse potenti. Duis vitae eleifend ipsum, consequat sodales mauris. Proin pharetra dapibus magna
+          nec posuere. Phasellus nisi lectus, varius eu sodales sit amet sagittis eu metus.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 indexText">
+        <p>Busca los contenidos que se ajustan a tus preferencias y guárdalos para leer más tarde.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 indexImg">
+          <img class="img-responsive" src="{{WebServiceURL}}/assets/webImages/man-791049_1920.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 indexImg">
+        <div class="row">
+          <img class="img-responsive" src="{{WebServiceURL}}/assets/webImages/mobile-791164_1920.jpg">
+        </div>
+      </div>
+      <div class="col-xs-12 indexText">
+        <p>Lee las últimas publicaciones aunque no tengas conexión.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 indexText">
+        <p>Etiam lacinia nisl a dui condimentum, vel imperdiet purus volutpat. Suspendisse eu sem lorem. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Suspendisse augue lectus, eleifend sit amet neque a, suscipit placerat mi. Integer
+          bibendum maximus mattis. Aliquam et lorem in dolor ultricies accumsan vitae maximus turpis.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 indexImg">
+          <img class="img-responsive" src="{{WebServiceURL}}/assets/webImages/magazines-1243577_1920.jpg">
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</main>
+<app-footer></app-footer>
