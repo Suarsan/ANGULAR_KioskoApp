@@ -15,6 +15,7 @@ export class AuthService {
               private router: Router) {
     this.currentUser = new UserModel();
   }
+
   public signIn(email: string, pass: string) {
     return new Observable(
       observable =>
@@ -40,18 +41,52 @@ export class AuthService {
       }
     );
   }
+
   public signOut() {
     localStorage.removeItem('kioskoUser');
     this.router.navigate(['/index']);
   }
 
+  // public sessionManager() {
+
+  //   // Comprobamos que tengamos el usuario guardado en local, si no lo tenemos redirecciona hacia fuera
+  //   if (this.checkUserLocalStorage()) {
+
+  //     try {
+  //       if ( false ) {
+  //         // Si es antiguo volvemos a pedir datos al server
+  //         console.log('Los datos han podido cambiar, pidiendo de nuevo al servidor');
+  //         this.refreshDataSession().subscribe(
+  //           user => {
+  //             this.currentUser = user;
+  //           }
+  //         );
+  //       } else {
+  //         this.checkUserLocalStorage();
+  //       }
+  //     } catch (e) {
+  //       this.checkUserLocalStorage();
+  //     }
+  //   }
+  // }
+
+  public checkUserLocalStorage() {
+    try {
+      if (localStorage.getItem('kioskoUser')) {
+        Object.assign(this.currentUser, JSON.parse(localStorage.getItem('kioskoUser')));
+      } else {
+        this.router.navigate(['/signin']);
+      }
+    } catch {
+      this.router.navigate(['/signin']);
+    }
+  }
   public refreshDataSession() {
     return new Observable<UserModel>(
       observable => {
         this.userDAOService.get(this.currentUser.Id).subscribe(
           user => {
-            this.currentUser = user;
-            localStorage.setItem('kioskoUser', JSON.stringify(this.currentUser));
+            localStorage.setItem('kioskoUser', JSON.stringify(user));
             localStorage.setItem('kioskoDate', JSON.stringify(new Date()));
             observable.next(user);
           }
@@ -59,27 +94,5 @@ export class AuthService {
       }
     );
   }
-  public sessionManager() {
-    try {
-      const savedDate = JSON.parse(localStorage.getItem('kioskoUser'));
-      const now = new Date();
-      const before = savedDate.setSeconds(savedDate.getSeconds() + 30);
 
-      if ( before < now ) {
-        this.refreshDataSession();
-      } else {
-        try {
-          if (localStorage.getItem('kioskoUser')) {
-            Object.assign(this.currentUser, JSON.parse(localStorage.getItem('kioskoUser')));
-          } else {
-            this.router.navigate(['/signup']);
-          }
-        } catch {
-          this.router.navigate(['/signup']);
-        }
-      }
-    } catch (e) {
-
-    }
-  }
 }

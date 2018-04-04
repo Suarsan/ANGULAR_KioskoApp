@@ -20,7 +20,7 @@ export class MenubarComponent implements OnInit {
 
   constructor(private router: Router,
               private authService: AuthService) {
-
+                this.currentUser = this.authService.currentUser;
                 this.WebServiceURL = environment.WebServiceURL;
               }
 

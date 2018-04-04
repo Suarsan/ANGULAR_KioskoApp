@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MagazineDaoService } from '../../../dao/magazine-dao/magazine-dao.service';
 import { Observable } from 'rxjs/Observable';
+import { MagazineModel } from '../../models/magazine.model';
 
 @Injectable()
 export class MagazineService {
@@ -18,7 +19,6 @@ export class MagazineService {
         );
       }
     );
-
   }
 
 }
