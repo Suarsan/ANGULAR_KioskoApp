@@ -2,11 +2,11 @@
   <app-menubar></app-menubar>
   <div class="col-xs-12 top-margin">
     <div class="row">
-          <h3>Email: {{currentUser?.Name}} {{currentUser?.LastName}} </h3>
+          <h3>Email: {{currentUser?.Email}}</h3>
           <a [routerLink]="['/magazine']">Ir a detalle</a>
     </div>
     <div class="row">
-      <app-magazine-carousel *ngFor="let category of categories" [magazines]="magazines"></app-magazine-carousel>
+      <app-magazine-carousel *ngFor="let viewedMagazine of viewedMagazines" [magazines]="viewedMagazines"></app-magazine-carousel>
     </div>
   </div>
 </div>

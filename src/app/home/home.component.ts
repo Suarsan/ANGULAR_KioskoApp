@@ -7,6 +7,7 @@ import { UserService } from '../services/user-service/user.service';
 import { environment } from '../../environments/environment';
 import { MagazineDaoService } from '../../dao/magazine-dao/magazine-dao.service';
 import { MagazineModel } from '../models/magazine.model';
+import { MagazineService } from '../services/magazine-service/magazine.service';
 
 @Component({
   selector: 'app-home',
@@ -18,30 +19,34 @@ export class HomeComponent implements OnInit {
 
   private WebServiceURL: string;
   private currentUser: UserModel;
-  public categories: Array<string>;
-  private magazines: Array<any>;
+  viewedMagazines: Array<MagazineModel>;
+  private fixedMagazines: Array<MagazineModel>;
+  private recommendedMagazines: Array<MagazineModel>;
+
 
   constructor(private router: Router,
               private authService: AuthService,
               private userService: UserService,
+              private magazineService: MagazineService,
               private magazineDaoService: MagazineDaoService) {
+                authService.refreshDataSession();
                 this.WebServiceURL = environment.WebServiceURL;
-                this.currentUser = this.authService.currentUser;
-                this.magazines = new Array<any>();
-                this.categories = ['categoria', 'categoria', 'categoria', 'categoria', 'categoria'];
+                this.fixedMagazines = new Array<MagazineModel>();
+                this.recommendedMagazines = new Array<MagazineModel>();
+                this.viewedMagazines = new Array<MagazineModel>();
               }
 
   ngOnInit() {
-    for (let i = 0; i < this.categories.length; i++) {
-      this.getMagazines(this.categories[i]);
-    }
+    //Si se ha cargado la info hace menos de 5min se recoge el usuario del servicio, si es mas antiguo se hace el refresh
+    // this.authService.refreshDataSession().subscribe(
+    //   user => {
+    //     this.currentUser = user;
+    //   }
+    // );
+    localStorage.setItem('kioskoDate', JSON.stringify(new Date()));
+    this.currentUser = this.authService.currentUser;
+    console.log(this.authService.currentUser.ViewedMagazines);
   }
 
-  private getMagazines(category) {
-    this.magazineDaoService.getProperty('category', category).subscribe(
-      magazines => {
-        this.magazines.push(magazines);
-      }
-    );
-  }
+
 }

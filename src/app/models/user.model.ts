@@ -6,12 +6,13 @@ export class UserModel {
   private id: string | number;
   private name: string;
   private lastName: string;
-  private boardSignature: string;
   private thumbnail: string;
+  private boardSignature: string;
   private email: string;
   private pass: string;
   private birthdate: string;
   private addresses: Array<AddressModel>;
+  private viewedMagazines: Array<string>;
   private likedMagazines: Array<string>;
   private recommendedMagazines: Array<string>;
   private cart: Array<string>;
@@ -22,23 +23,27 @@ export class UserModel {
                pass?: string,
                name?: string,
                lastName?: string,
-               boardSignature?: string,
                thumbnail?: string,
+               boardSignature?: string,
                birthdate?: string,
                addresses?: Array<AddressModel>,
+               viewedMagazines?: Array<string>,
                likedMagazines?: Array<string>,
                recommendedMagazines?: Array<string>,
                cart?: Array<string>,
-               downloadedMagazines?: Array<string>
+               downloadedMagazines?: Array<string>,
+
                 ) {
     this.id = id;
     this.email = email;
     this.pass = pass;
     name === undefined ? this.name = '' : this.name = name ;
     lastName === undefined ? this.lastName = '' : this.lastName = lastName ;
+    thumbnail === undefined ? this.thumbnail = '' : this.thumbnail = thumbnail ;
     boardSignature === undefined ? this.boardSignature = '' : this.boardSignature = boardSignature ;
     birthdate === undefined ? this.birthdate = '' : this.birthdate = birthdate ;
     addresses === undefined ? this.addresses = [] : this.addresses = addresses ;
+    viewedMagazines === undefined ? this.viewedMagazines = [] : this.viewedMagazines = viewedMagazines ;
     likedMagazines === undefined ? this.likedMagazines = [] : this.likedMagazines = likedMagazines ;
     recommendedMagazines === undefined ? this.recommendedMagazines = [] : this.recommendedMagazines = recommendedMagazines;
     cart === undefined ? this.cart = [] : this.cart = cart ;
@@ -115,6 +120,15 @@ export class UserModel {
   public set Addresses(value: Array<AddressModel>) {
     this.addresses = value;
   }
+
+  public get ViewedMagazines(): Array<string> {
+    return this.viewedMagazines;
+  }
+
+  public set ViewedMagazines(value: Array<string>) {
+    this.viewedMagazines = value;
+  }
+
 
   public get LikedMagazines(): Array<string> {
     return this.likedMagazines;

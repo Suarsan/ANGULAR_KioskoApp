@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { AuthService } from '../services/auth-service/auth.service';
+import { Router } from '@angular/router';
 import { UserModel } from '../models/user.model';
 
 @Component({
@@ -12,23 +12,27 @@ export class SigninComponent implements OnInit {
 
   private email: string;
   private pass: string;
-  private user: UserModel;
 
-  constructor(private authService: AuthService,
-              private router: Router) { }
+  constructor(private authService: AuthService, private router: Router) {
+    this.email = '';
+    this.pass = '';
+  }
 
-  ngOnInit() { }
+  ngOnInit() {
+  }
 
   private signIn() {
     this.authService.signIn(this.email, this.pass).subscribe(
-      registeredUser => {
-        if (registeredUser) {
-          localStorage.setItem('kioskoUser', JSON.stringify(<UserModel>registeredUser));
-          this.router.navigate(['/']);
-        } else {
-          console.log('No se pudo completar el registro');
-        }
+      loggedUser => {
+          if (loggedUser[0]) {
+            localStorage.setItem('kioskoUser', JSON.stringify(loggedUser[0]));
+            localStorage.setItem('kioskoDate', JSON.stringify(new Date()));
+            this.router.navigate(['/']);
+          } else {
+            console.log('No se pudo completar la autenticación');
+          }
       }
     );
   }
+
 }

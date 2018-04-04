@@ -16,7 +16,7 @@ export class DetailComponent implements OnInit {
   constructor( private magazineDAO: MagazineDaoService ) { }
 
   ngOnInit() {
-    this.currentMagazine = new MagazineModel("1", "NombreRevista", new PublisherModel("1", "EditorialRevista"), "Descripcion revista", ["tag1", "tag2"], ["thumbnail1", "thumbnail2"], ["downloadUrl1", "downloadUrl2"], ["contentUrl1", "contentUrl2"], 4);
+    this.currentMagazine = new MagazineModel("1", "NombreRevista", new PublisherModel("1", "EditorialRevista"), "Descripcion revista", "categoria", ["tag1", "tag2"], ["thumbnail1", "thumbnail2"], ["downloadUrl1", "downloadUrl2"], ["contentUrl1", "contentUrl2"], 4);
     this.currentMagazine.Title = '1';
     this.getMagazine(1);
   }
