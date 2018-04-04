@@ -29,6 +29,7 @@ import { WalletService } from './services/wallet-service/wallet.service';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
 import { MagazineCarouselComponent } from './components/magazine-carousel/magazine-carousel.component';
+import { MagazineDaoService } from '../dao/magazine-dao/magazine-dao.service';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,7 @@ import { MagazineCarouselComponent } from './components/magazine-carousel/magazi
     RouterModule.forRoot(routes),
   ],
   providers: [MagazineService, AuthService, UserService, WalletService,
-              UserDaoService, WalletDaoService],
+              UserDaoService, MagazineDaoService, WalletDaoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

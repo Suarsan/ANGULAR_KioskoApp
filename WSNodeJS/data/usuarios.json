@@ -1,1 +1,45 @@
-[{"id":1,"email":"javier@kiosko.com","pass":"javier","name":"Javier","lastName":"Suárez","boardSignature":"C'est la vie","birthdate":"22/09/1990","addresses":[],"likedMagazines":[],"recommendedMagazines":[],"cart":[],"downloadedMagazines":[],"thumbnail":"/assets/userprofileImages/userprofileImage1.jpg"},{"id":2,"email":"john@kiosko.com","pass":"john","name":"","lastName":"","boardSignature":"","birthdate":"","addresses":[],"likedMagazines":[],"recommendedMagazines":[],"cart":[],"downloadedMagazines":[]},{"id":3,"email":"mario@kiosko.com","pass":"mario","name":"","lastName":"","boardSignature":"","birthdate":"","addresses":[],"likedMagazines":[],"recommendedMagazines":[],"cart":[],"downloadedMagazines":[]}]
+[
+  {
+    "id": 1,
+    "email": "javier@kiosko.com",
+    "pass": "javier",
+    "name": "Javier",
+    "lastName": "Suárez",
+    "boardSignature": "C'est la vie",
+    "birthdate": "22/09/1990",
+    "addresses": [],
+    "likedMagazines": [],
+    "recommendedMagazines": [],
+    "cart": [],
+    "downloadedMagazines": [],
+    "thumbnail": "/assets/userprofileImages/userprofileImage1.jpg"
+  },
+  {
+    "id": 2,
+    "email": "john@kiosko.com",
+    "pass": "john",
+    "name": "",
+    "lastName": "",
+    "boardSignature": "",
+    "birthdate": "",
+    "addresses": [],
+    "likedMagazines": [],
+    "recommendedMagazines": [],
+    "cart": [],
+    "downloadedMagazines": []
+  },
+  {
+    "id": 3,
+    "email": "mario@kiosko.com",
+    "pass": "mario",
+    "name": "",
+    "lastName": "",
+    "boardSignature": "",
+    "birthdate": "",
+    "addresses": [],
+    "likedMagazines": [],
+    "recommendedMagazines": [],
+    "cart": [],
+    "downloadedMagazines": []
+  }
+]

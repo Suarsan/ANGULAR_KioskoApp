@@ -2,104 +2,115 @@ import { PublisherModel } from './publisher.model';
 
 export class MagazineModel {
 
-  private _id: string | number;
-  private _title: string;
-  private _owner: PublisherModel;
-  private _description: string;
-  private _tags: Array<string>;
-  private _thumbnail: Array<string>;
-  private _downloadURL: Array<string>;
-  private _contentUrl: Array<string>;
-  private _rating: number;
+  private id: string | number;
+  private title: string;
+  private owner: PublisherModel;
+  private description: string;
+  private category: string;
+  private tags: Array<string>;
+  private thumbnail: Array<string>;
+  private downloadURL: Array<string>;
+  private contentUrl: Array<string>;
+  private rating: number;
 
-  constructor(id: string | number,
-              title: string,
-              owner: PublisherModel,
-              description: string,
-              tags: Array<string>,
-              thumbnail: Array<string>,
-              downloadURL: Array<string>,
-              contentUrl: Array<string>,
-              rating: number) {
-    this._id = id;
-    this._title = title;
-    this._owner = owner;
-    this._description = description;
-    this._tags = tags;
-    this._thumbnail = thumbnail;
-    this._downloadURL = downloadURL;
-    this._contentUrl = contentUrl;
-    this._rating = rating; }
+  constructor(id?: string | number,
+              title?: string,
+              owner?: PublisherModel,
+              description?: string,
+              category?: string,
+              tags?: Array<string>,
+              thumbnail?: Array<string>,
+              downloadURL?: Array<string>,
+              contentUrl?: Array<string>,
+              rating?: number) {
+    this.id = id;
+    this.title = title;
+    this.owner = owner;
+    this.description = description;
+    this.category = category;
+    this.tags = tags;
+    this.thumbnail = thumbnail;
+    this.downloadURL = downloadURL;
+    this.contentUrl = contentUrl;
+    this.rating = rating; }
 
   public get Id(): string | number {
-    return this._id;
+    return this.id;
   }
 
   public set Id(value: string | number) {
-    this._id = value;
+    this.id = value;
   }
 
   public get Title(): string {
-    return this._title;
+    return this.title;
   }
 
   public set Title(value: string) {
-    this._title = value;
+    this.title = value;
   }
 
   public get Owner(): PublisherModel {
-    return this._owner;
+    return this.owner;
   }
 
   public set Owner(value: PublisherModel) {
-    this._owner = value;
+    this.owner = value;
   }
 
   public get Description(): string {
-    return this._description;
+    return this.description;
   }
 
   public set Description(value: string) {
-    this._description = value;
+    this.description = value;
+  }
+
+  public get Category(): string {
+    return this.category;
+  }
+
+  public set Category(value: string) {
+    this.category = value;
   }
 
   public get Tags(): Array<string> {
-    return this._tags;
+    return this.tags;
   }
 
   public set Tags(value: Array<string>) {
-    this._tags = value;
+    this.tags = value;
   }
 
   public get Thumbnail(): Array<string> {
-    return this._thumbnail;
+    return this.thumbnail;
   }
 
   public set Thumbnail(value: Array<string>) {
-    this._thumbnail = value;
+    this.thumbnail = value;
   }
 
   public get DownloadURL(): Array<string> {
-    return this._downloadURL;
+    return this.downloadURL;
   }
 
   public set DownloadURL(value: Array<string>) {
-    this._downloadURL = value;
+    this.downloadURL = value;
   }
 
   public get ContentUrl(): Array<string> {
-    return this._contentUrl;
+    return this.contentUrl;
   }
 
   public set ContentUrl(value: Array<string>) {
-    this._contentUrl = value;
+    this.contentUrl = value;
   }
 
   public get Rating(): number {
-    return this._rating;
+    return this.rating;
   }
 
   public set Rating(value: number) {
-    this._rating = value;
+    this.rating = value;
   }
 }

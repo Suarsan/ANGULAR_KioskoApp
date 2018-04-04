@@ -1,134 +1,2277 @@
 [
-    {
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
         "id": "1",
         "title": "February 2014",
         "owner": "BRUMMELL",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
         "downloadUrl": "./assets/magazine.zip",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4 },
-    {
+        "rating": 4
+      },
+      {
         "id": "2",
         "title": "February 2014 No26",
         "owner": "DIY",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/26_diy__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-
-    { 
+        "rating": 4
+      },
+      {
         "id": "3",
         "title": "Ibrahim Çelikkol No9",
         "owner": "BEMAN",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/9_beman__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "4",
         "title": "No87",
         "owner": "EYE",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "5",
         "title": "4 · Junio · 2012",
         "owner": "FORBES",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "6",
         "title": "1 · Octubre · 2014 - No3661",
         "owner": "HOLA",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "7",
         "title": "Febrero",
         "owner": "HUNTER",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "8",
         "title": "Junio 2017 No21",
         "owner": "JOT DOWN",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "9",
         "title": "Mayo 2015 No1",
         "owner": "TOMATICKET",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "10",
         "title": "Person of the Year - Puttin",
         "owner": "TIME",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip.jpg",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "11",
         "title": "JBalvin JUL2016",
         "owner": "UMOMAGAZINE",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "12",
         "title": "Spring Preview 2014 No87",
         "owner": "V MAGAZINE",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  },
-    { 
+        "rating": 4
+      },
+      {
         "id": "13",
         "title": "The Spring 2018",
         "owner": "WONDERLAND",
-        "description": "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
-        "tags": ["sociedad","arte","diseño","cosmopolita","joven"],
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
         "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
         "downloadUrl": "assets/magazine.zip",
         "detailViewUrl": "/assets/images/detailViewExample.jpeg",
-        "rating": 4  }
-        
+        "rating": 4
+      }
     ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "magazines": [
+      {
+        "id": "1",
+        "title": "February 2014",
+        "owner": "BRUMMELL",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "./assets/images/february2014_brummell__thumbnail.jpg",
+        "downloadUrl": "./assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "2",
+        "title": "February 2014 No26",
+        "owner": "DIY",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/26_diy__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "3",
+        "title": "Ibrahim Çelikkol No9",
+        "owner": "BEMAN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/9_beman__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "4",
+        "title": "No87",
+        "owner": "EYE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/no87_eye__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "5",
+        "title": "4 · Junio · 2012",
+        "owner": "FORBES",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/04062012_forbes__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "1 · Octubre · 2014 - No3661",
+        "owner": "HOLA",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/3661_hola__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "7",
+        "title": "Febrero",
+        "owner": "HUNTER",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/febrero_hunter__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "8",
+        "title": "Junio 2017 No21",
+        "owner": "JOT DOWN",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/21_jotdown__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "9",
+        "title": "Mayo 2015 No1",
+        "owner": "TOMATICKET",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/1_tomaticket__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Person of the Year - Puttin",
+        "owner": "TIME",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/putin2007_time__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip.jpg",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "11",
+        "title": "JBalvin JUL2016",
+        "owner": "UMOMAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/jbalvinjul2016_umo__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "12",
+        "title": "Spring Preview 2014 No87",
+        "owner": "V MAGAZINE",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/87_vmagazine__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      },
+      {
+        "id": "13",
+        "title": "The Spring 2018",
+        "owner": "WONDERLAND",
+        "description":
+          "Quis nostrud non aliqua elit et eiusmod ex adipisicing eu adipisicing quis nulla mollit. Laboris Lorem cupidatat consequat exercitation veniam ullamco consequat Lorem incididunt sint cillum. Sunt quis officia ad ex do duis anim in. Fugiat irure sunt esse elit culpa proident labore commodo laborum aliquip ea. Ullamco sit laboris commodo commodo. Commodo officia do esse sint id eiusmod sit reprehenderit adipisicing aliquip sint eiusmod.",
+        "category": "categoria",
+        "tags": ["sociedad", "arte", "diseño", "cosmopolita", "joven"],
+        "thumbnail": "assets/images/spring2018_wonderland__thumbnail.jpg",
+        "downloadUrl": "assets/magazine.zip",
+        "detailViewUrl": "/assets/images/detailViewExample.jpeg",
+        "rating": 4
+      }
+    ]
+  }
+]

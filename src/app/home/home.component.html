@@ -6,12 +6,7 @@
           <a [routerLink]="['/magazine']">Ir a detalle</a>
     </div>
     <div class="row">
-      <app-magazine-carousel></app-magazine-carousel>
-      <app-magazine-carousel></app-magazine-carousel>
-      <app-magazine-carousel></app-magazine-carousel>
-      <app-magazine-carousel></app-magazine-carousel>
-      <app-magazine-carousel></app-magazine-carousel>
-      <app-magazine-carousel></app-magazine-carousel>
+      <app-magazine-carousel *ngFor="let category of categories" [magazines]="magazines"></app-magazine-carousel>
     </div>
   </div>
 </div>
