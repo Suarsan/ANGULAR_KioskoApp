@@ -1,171 +1,189 @@
 /**** TAMAÑOS PANTALLA ******/
+@screen-xs-max: 767px;
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1170px;
+
 /****** COLORES ********/
+@white: rgba(255, 255, 255, 1);
+@verylightgray: #eeeeee;
+@lightgray: #c8c8c8;
+@darkgray: #646464;
+@blackgray: #333333;
+@black: #0a0a0a;
+@orange: #ffb400;
+@darkorange: rgb(219, 132, 0);
+
 /******** SOMBRAS **********/
-/**** BOTONES ****/
+@boxShadow: 2px 2px 5px @darkgray;
+@textDarkShadow: 1px 1px 2px @darkgray;
+@textLightShadow: 1px 1px 2px @lightgray;
+
+  /**** BOTONES ****/
 .abm_btn {
-  box-shadow: 2px 2px 5px #646464;
-  text-shadow: 1px 1px 2px #646464;
+  box-shadow: @boxShadow;
+  text-shadow: @textDarkShadow;
   border-radius: 15px;
   font-size: 1.2em;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
-.paragraphFont {
+
+.paragraphFont{
   margin: 0;
   padding: 0;
   text-align: justify;
 }
+
+
 /***** XS *******/
-@media (max-width: 767px) {
+@media (max-width: @screen-xs-max) {
   /**** BOTONES ****/
   .loginBtn,
   .registerBtn {
-    box-shadow: 2px 2px 5px #646464;
-    text-shadow: 1px 1px 2px #646464;
-    border-radius: 15px;
-    font-size: 1.2em;
+    .abm_btn;
     margin-top: 7.5px;
     height: 35px;
     white-space: normal;
     font-weight: 400;
   }
+
   .menuIndex {
-    background-color: #0a0a0a;
+    background-color: @black;
     height: 50px;
     top: 0;
   }
-  .indexTitle {
+
+  .indexTitle{
     margin-bottom: 5%;
     padding-top: 75px;
     text-align: center;
-    color: #333333;
+    color: @blackgray;
     font-size: 3em;
     font-weight: 900;
   }
-  .indexMainText {
+
+  .indexMainText{
     margin-bottom: 5%;
   }
-  .indexMainText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    color: #0a0a0a;
+
+  .indexMainText p{
+    .paragraphFont;
+    color: @black;
     font-size: 1.3em;
     font-weight: bolder;
   }
-  .indexText {
+
+  .indexText{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
-  .indexText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
+  .indexText p{
+    .paragraphFont;
     margin-right: 7.5%;
     margin-left: 7.5%;
     font-size: 1.2em;
   }
 }
+
 /***** SM *******/
-@media (min-width: 768px) {
+@media (min-width: @screen-sm-min) {
   /**** BOTONES ****/
   .loginBtn,
   .registerBtn {
-    box-shadow: 2px 2px 5px #646464;
-    text-shadow: 1px 1px 2px #646464;
-    border-radius: 15px;
-    font-size: 1.2em;
+    .abm_btn;
     margin-top: 7.5px;
     height: 35px;
     white-space: normal;
     font-weight: 400;
   }
+
   .menuIndex {
-    background-color: #0a0a0a;
+    background-color: @black;
     height: 50px;
     top: 0;
   }
-  .indexTitle {
+
+  .indexTitle{
     padding-top: 66px;
     margin-bottom: 2.5%;
     text-align: center;
-    color: #333333;
+    color: @blackgray;
     font-size: 3em;
     font-weight: 900;
   }
-  .indexMainText {
+
+  .indexMainText{
     margin-bottom: 5%;
   }
-  .indexMainText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    color: #0a0a0a;
+
+  .indexMainText p{
+    .paragraphFont;
+    color: @black;
     font-size: 1.3em;
     font-weight: bolder;
   }
-  .indexText {
+
+  .indexText{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
-  .indexText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
+  .indexText p{
+    .paragraphFont;
     margin-right: 5%;
     margin-left: 5%;
     font-size: 1.2em;
     line-height: 1.5;
   }
 }
+
 /***** MD *******/
-@media (min-width: 992px) {
+@media (min-width: @screen-md-min) {
   /**** BOTONES ****/
   .loginBtn,
   .registerBtn {
-    box-shadow: 2px 2px 5px #646464;
-    text-shadow: 1px 1px 2px #646464;
-    border-radius: 15px;
-    font-size: 1.2em;
+    .abm_btn;
     margin-top: 7.5px;
     margin-left: 3%;
     height: 35px;
     white-space: normal;
     font-weight: 400;
   }
+
   .menuIndex {
-    background-color: #0a0a0a;
+    background-color: @black;
     height: 50px;
     top: 0;
   }
-  .indexTitle {
+
+  .indexTitle{
     padding-top: 66px;
     margin-bottom: 2.5%;
     text-align: center;
-    color: #333333;
+    color: @blackgray;
     font-size: 3em;
     font-weight: 900;
   }
-  .indexMainText {
+
+  .indexMainText{
     margin-bottom: 5%;
   }
-  .indexMainText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    color: #0a0a0a;
+
+  .indexMainText p{
+    .paragraphFont;
+    color: @black;
     font-size: 1.3em;
     font-weight: bolder;
   }
-  .indexText {
+
+  .indexText{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
-  .indexText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
+  .indexText p{
+    .paragraphFont;
     margin-right: 5%;
     margin-left: 5%;
     font-size: 1.2em;

@@ -1,11 +1,21 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
 .background {
-  background-color: #282828; }
+  background-color: #282828;
+}
 
 @media (max-width: 768px) {
   .top-margin {
-    margin-top: 50px; } }
+    margin-top: 50px;
+  }
+}
 @media (min-width: 769px) {
   .top-margin {
-    margin-top: 100px; } }
+    margin-top: 100px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
