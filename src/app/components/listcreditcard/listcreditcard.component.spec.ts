@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListcreditcardComponent } from './listcreditcard.component';
+import { ListCreditCardComponent } from './listcreditcard.component';
 
 describe('ListcreditcardComponent', () => {
-  let component: ListcreditcardComponent;
-  let fixture: ComponentFixture<ListcreditcardComponent>;
+  let component: ListCreditCardComponent;
+  let fixture: ComponentFixture<ListCreditCardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ListcreditcardComponent ]
+      declarations: [ ListCreditCardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListcreditcardComponent);
+    fixture = TestBed.createComponent(ListCreditCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
