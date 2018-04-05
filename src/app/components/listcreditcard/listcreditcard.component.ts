@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, Output, EventEmitter, SimpleChanges } from '@angular/core';
 import { UserService } from '../../services/user-service/user.service';
 import { WalletModel } from '../../models/wallet.model';
 import { WalletService } from '../../services/wallet-service/wallet.service';
@@ -12,8 +12,8 @@ import { CreditcardModel } from '../../models/creditcard.model';
 })
 export class ListCreditCardComponent implements OnInit, OnChanges {
 
+  @Input() inputWallet: WalletModel;
   @Input('currentUser') currentUser: UserModel;
-  @Input() e: any;
   @Output() walletEmitted: EventEmitter<WalletModel> = new EventEmitter<WalletModel>();
 
   public wallet: WalletModel;
@@ -24,12 +24,10 @@ export class ListCreditCardComponent implements OnInit, OnChanges {
   ngOnInit() {
     this.getWallet();
   }
-
   ngOnChanges() {
-    this.e = false;
-    console.log('cambios en list');
     this.getWallet();
   }
+
 
   getWallet() {
     this.walletService.getWalletByUserId(this.currentUser.Id).subscribe(
@@ -41,16 +39,12 @@ export class ListCreditCardComponent implements OnInit, OnChanges {
       }
     );
   }
-  removeCreditcard(creditcard) {
-    console.log("quiero borrar");
-    this.walletService.removeCreditCard(this.currentUser, creditcard).subscribe(
+  removeCreditcard(creditcardIndex) {
+    this.walletService.removeCreditCard(this.currentUser, creditcardIndex).subscribe(
       wallet => {
         if (wallet) {
-          this.walletEmitted.emit(wallet as WalletModel);
-        } else {
-          console.log('hay que crear uno');
+          this.getWallet();
         }
-
       }
     );
   }

@@ -1,5 +1,5 @@
 import { UserModel } from '../models/user.model';
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, EventEmitter, ElementRef, ViewChild } from '@angular/core';
 import { NewCreditCardComponent } from '../components/newcreditcard/newcreditcard.component';
 import { ListCreditCardComponent } from '../components/listcreditcard/listcreditcard.component';
 import { UserDaoService } from '../../dao/user-dao/user-dao.service';
@@ -14,18 +14,19 @@ import { WalletModel } from '../models/wallet.model';
 export class WalletComponent implements OnInit {
 
   currentUser: UserModel;
-  e: any;
+  wallet: WalletModel;
 
   constructor(private authService: AuthService) {
+    this.wallet = new WalletModel(0);
     authService.checkUserLocalStorage();
     this.currentUser = this.authService.currentUser;
   }
 
   ngOnInit() { }
 
-  refreshCreditcardsList() {
-    console.log("padre recibe el evento");
-    this.e = true;
+  refreshCreditcardsList(wallet) {
+    this.wallet = wallet;
+
   }
 
 }

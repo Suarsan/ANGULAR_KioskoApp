@@ -35,9 +35,8 @@ export class NewCreditCardComponent implements OnInit {
         if (wallet) {
           this.walletEmitted.emit(wallet as WalletModel);
         } else {
-          console.log('hay que crear uno');
+          console.log('Creando wallet nuevo');
         }
-
       }
     );
   }
