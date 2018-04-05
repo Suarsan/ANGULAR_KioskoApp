@@ -55,6 +55,35 @@ export class WalletService {
         );
       }
     );
+  }
+  removeCreditCard(user: UserModel, creditcard: CreditcardModel) {
+    let auxWallet: WalletModel = new WalletModel(0);
+    auxWallet.Creditcards = new Array<CreditcardModel>();
+    return new Observable(
+      observable => {
+        this.getWalletByUserId(user.Id).subscribe(
+          res => {
+            if (res.length > 0) {
+              Object.assign(auxWallet, res[0]);
+              console.log(auxWallet.Creditcards);
+              let index = auxWallet.Creditcards.indexOf(creditcard);
+              if (index > -1) {
+                auxWallet.Creditcards.splice(index, 1);
+                console.log(auxWallet.Creditcards);
+              }
+              this.walletDAO.change(auxWallet.Id, auxWallet).subscribe(
+                wallet => {
+                  observable.next(wallet);
+                }
+              );
+            } else {
+              observable.next(null);
+            }
+
+          }
+        );
+      }
+    );
 
 
   }

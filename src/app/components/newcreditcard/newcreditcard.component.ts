@@ -24,26 +24,15 @@ export class NewCreditCardComponent implements OnInit {
               private authService: AuthService,
               private walletService: WalletService) {
                 this.creditcard = new CreditcardModel();
-
               }
 
   ngOnInit() {
-    console.log(this.currentUser);
   }
 
-  getCreditCards() {
-    this.walletService.getWalletByUserId(this.currentUser).subscribe(
-      wallet => {
-        console.log('getCreditCards hechoo');
-      }
-    );
-  }
   addCreditCard() {
     this.walletService.addCreditCard(this.currentUser, this.creditcard).subscribe(
       wallet => {
         if (wallet) {
-          console.dir(wallet);
-          console.log('hecho');
           this.walletEmitted.emit(wallet as WalletModel);
         } else {
           console.log('hay que crear uno');

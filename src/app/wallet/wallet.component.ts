@@ -14,7 +14,7 @@ import { WalletModel } from '../models/wallet.model';
 export class WalletComponent implements OnInit {
 
   currentUser: UserModel;
-  @Output() e: EventEmitter<any> = new EventEmitter<any>();
+  e: any;
 
   constructor(private authService: AuthService) {
     authService.checkUserLocalStorage();
@@ -24,7 +24,8 @@ export class WalletComponent implements OnInit {
   ngOnInit() { }
 
   refreshCreditcardsList() {
-    this.e.emit();
+    console.log("padre recibe el evento");
+    this.e = true;
   }
 
 }

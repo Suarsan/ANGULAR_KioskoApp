@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-xs-12">
         <h1>Payments</h1>
-        <app-listcreditcard [currentUser]="currentUser" [e]="e"></app-listcreditcard>
+        <app-listcreditcard [currentUser]="currentUser" (walletEmitted)="refreshCreditcardsList()" [e]="e"></app-listcreditcard>
         <app-newcreditcard [currentUser]="currentUser" (walletEmitted)="refreshCreditcardsList()"></app-newcreditcard>
       </div>
     </div>
