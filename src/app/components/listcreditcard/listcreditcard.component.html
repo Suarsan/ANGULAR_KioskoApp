@@ -4,25 +4,29 @@
       <div class="col-xs-10 col-xs-offset-1 creditcard">
         <div class="row">
           <div class="col-xs-12">
-            <p>{{creditCard?.ownerName}}</p>
+            <span class="name">{{creditCard?.name}}</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <p>{{creditCard?.expirationDate}}</p>
+            <span class="ownername">{{creditCard?.ownerName}}</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <p>{{creditCard?.securityCode}}</p>
+            <span class="creditcardnumber">{{creditCard?.creditcardNumber}}</span>
+            <span class="expirationdate">{{creditCard?.expirationDate}}</span>
+            <span class="securityCode">XXX</span>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <p>{{creditCard?.creditcardNumber}}</p>
-          </div>
+        <div class="options">
+          <button (click)="editCreditcard(i)" class="edit-button">
+            <i class="glyphicon glyphicon-edit"></i>
+          </button>
+          <button (click)="removeCreditcard(i)" class="remove-icon">
+            <i class="glyphicon glyphicon-remove"></i>
+          </button>
         </div>
-        <div (click)="removeCreditcard(i)" class="remove-icon"><i class="glyphicon glyphicon-remove"></i></div>
       </div>
     </div>
   </div>

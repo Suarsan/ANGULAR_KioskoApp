@@ -5,11 +5,10 @@ export class WalletModel {
   private userId: string | number;
   private creditcards: Array<CreditcardModel>;
 
-  constructor(id: number, userId?: string | number, creditcards?: Array<CreditcardModel>) {
+  constructor(id: number, walletName?: string, userId?: string | number, creditcards?: Array<CreditcardModel>) {
     this.id = id;
     this.userId = userId;
     creditcards === undefined ? this.creditcards = [] : this.creditcards = creditcards; }
-
 
   public get Id(): number {
     return this.id;

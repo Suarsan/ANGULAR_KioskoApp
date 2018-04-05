@@ -1,6 +1,17 @@
 .addcreditcard {
   background-color: #eeeeee;
   border: 2px solid #cccccc;
-  padding: 5px; }
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-align: center; }
+  .addcreditcard .newcreditcard {
+    font-size: 15px;
+    color: #aaa; }
+  .addcreditcard .form {
+    margin-top: 10px; }
+  .addcreditcard button {
+    margin-top: 15px;
+    background-color: #aaa; }
 
 /*# sourceMappingURL=newcreditcard.component.css.map */

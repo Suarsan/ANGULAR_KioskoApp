@@ -1,13 +1,25 @@
 <div class="row">
-  <div class="col-xs-12 addcreditcard">
-      <label for="ownerName"></label>
-      <input id="ownerName" type="text" placeholder="Lorem ipsum" [(ngModel)]="creditcard.OwnerName">
-      <label for="creditcardNumber"></label>
-      <input id="creditcardNumber" type="text" placeholder="XXXX XXXX XXXX XXXX" [(ngModel)]="creditcard.CreditcardNumber">
-      <label for="expirationDate"></label>
-      <input id="expirationDate" type="text" placeholder="XX/XXXX" [(ngModel)]="creditcard.ExpirationDate">
-      <label for="securityCode"></label>
-      <input id="securityCode" type="text" placeholder="XXX" [(ngModel)]="creditcard.SecurityCode">
-      <button class="btn" (click)="addCreditCard()">Añadir</button>
+  <div class="col-xs-offset-1 col-xs-10 addcreditcard">
+    <span class="newcreditcard">Añadir nueva tarjeta</span>
+    <div class="form">
+      <div class="form-group col-xs-12">
+        <input type="text" class="col-xs-12 form-control walletName" placeholder="Nombre para la tarjeta. Ejemplo: Mi tarjeta de La Caixa"
+          [(ngModel)]="creditcard.Name">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="text" class="col-xs-12 form-control ownerName" placeholder="Titular de la tarjeta. Ejemplo: John Doe" [(ngModel)]="creditcard.OwnerName">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="text" class="col-xs-12 form-control creditcardNumber" placeholder="Numero de la tarjeta. Ejemplo: XXXX XXXX XXXX XXXX"
+          [(ngModel)]="creditcard.CreditcardNumber">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="text" class="col-xs-12 form-control expirationDate" placeholder="Fecha de caducidad. Ejemplo: XX/XXXX" [(ngModel)]="creditcard.ExpirationDate">
+      </div>
+      <div class="form-group col-xs-12">
+        <input type="text" class="col-xs-12 form-control securityCode" placeholder="Numero de seguridad CVV. Ejemplo: XXX" [(ngModel)]="creditcard.SecurityCode">
+      </div>
+      <button class="btn col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4" (click)="addCreditCard()">Añadir</button>
+    </div>
   </div>
 </div>

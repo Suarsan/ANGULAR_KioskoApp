@@ -26,7 +26,6 @@ export class WalletComponent implements OnInit {
 
   refreshCreditcardsList(wallet) {
     this.wallet = wallet;
-
   }
 
 }
