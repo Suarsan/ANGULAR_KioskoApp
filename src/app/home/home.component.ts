@@ -44,7 +44,6 @@ export class HomeComponent implements OnInit {
                 this.likedMagazines[1] = new Array<any>();
                 this.downloadedMagazines = new Array<any>();
                 this.downloadedMagazines[1] = new Array<any>();
-
               }
 
   ngOnInit() {
