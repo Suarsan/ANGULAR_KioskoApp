@@ -1,14 +1,16 @@
-<header class="menuIndex">
-  <div class="row">
-    <div class="col-md-8"></div>
-    <button [routerLink]="['/signin']" id="loginBtn" class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-0 btn" type="button">Login</button>
-    <button [routerLink]="['/signup']" id="registerBtn" class="col-xs-4 col-xs-offset-2 col-sm-3 col-md-2 col-md-offset-0 btn" type="button">Regístrate</button>
+<div class="row navbar-fixed-top menuIndex">
+  <div class="container">
+    <div class="col-md-7"></div>
+    <button [routerLink]="['/signin']" id="loginBtn" class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-0 btn loginBtn"
+      type="button">Login</button>
+    <button [routerLink]="['/signup']" id="registerBtn" class="col-xs-4 col-xs-offset-2 col-sm-3 col-md-2 col-md-offset-0 btn registerBtn"
+      type="button">Regístrate</button>
   </div>
-</header>
+</div>
 
 <main class="container-fluid">
   <div class="row">
-    <div class="col-xs-12 indexTittle">KIOSKO
+    <div class="col-xs-12 indexTitle">KIOSKO
     </div>
   </div>
   <div class="row">
@@ -18,7 +20,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-7 indexImg">
+      <div class="col-xs-12 col-sm-6 indexImg">
         <div class="row">
           <img class="img-responsive" src="{{WebServiceURL}}/assets/webImages/ebook-3089013_1920.jpg">
         </div>
