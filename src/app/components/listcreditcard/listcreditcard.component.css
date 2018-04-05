@@ -1,3 +1,11 @@
+.creditcard {
+  border: 2px solid #eeeeee;
+  border-radius: 4px;
+  margin-bottom: 15px; }
 
+.remove-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
 
 /*# sourceMappingURL=listcreditcard.component.css.map */

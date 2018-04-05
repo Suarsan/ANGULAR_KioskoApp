@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { UserModel } from '../../models/user.model';
 import { CreditcardModel } from '../../models/creditcard.model';
 import { UserDaoService } from '../../../dao/user-dao/user-dao.service';
@@ -15,6 +15,7 @@ import { WalletService } from '../../services/wallet-service/wallet.service';
 export class NewCreditCardComponent implements OnInit {
 
   @Input('currentUser') currentUser: UserModel;
+  @Output() walletEmitted: EventEmitter<WalletModel> = new EventEmitter<WalletModel>();
   private wallet: WalletModel;
   public creditcard: CreditcardModel;
 
@@ -23,30 +24,19 @@ export class NewCreditCardComponent implements OnInit {
               private authService: AuthService,
               private walletService: WalletService) {
                 this.creditcard = new CreditcardModel();
-
               }
 
   ngOnInit() {
-    console.log(this.currentUser);
   }
 
-  getCreditCards() {
-    this.walletService.getWalletByUserId(this.currentUser).subscribe(
-      wallet => {
-        console.log('getCreditCards hechoo');
-      }
-    );
-  }
   addCreditCard() {
     this.walletService.addCreditCard(this.currentUser, this.creditcard).subscribe(
       wallet => {
         if (wallet) {
-          console.dir(wallet);
-          console.log('hecho');
+          this.walletEmitted.emit(wallet as WalletModel);
         } else {
-          console.log('hay que crear uno');
+          console.log('Creando wallet nuevo');
         }
-
       }
     );
   }

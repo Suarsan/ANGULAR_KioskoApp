@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,WAAW;EACT,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,aAAa,EAAE,IAAI;;AACrB,YAAY;EACV,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,KAAK,EAAE,GAAG",
+"sources": ["listcreditcard.component.sass"],
 "names": [],
 "file": "listcreditcard.component.css"
 }

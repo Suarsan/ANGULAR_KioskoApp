@@ -16,11 +16,11 @@ export class CreditcardModel {
     this.securityCode = securityCode;
   }
 
-  public get Owner(): string {
+  public get OwnerName(): string {
     return this.ownerName;
   }
 
-  public set Owner(value: string) {
+  public set OwnerName(value: string) {
     this.ownerName = value;
   }
 
