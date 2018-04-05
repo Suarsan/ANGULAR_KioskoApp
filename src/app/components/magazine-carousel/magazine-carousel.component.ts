@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 import { MagazineModel } from '../../models/magazine.model';
 import { environment } from '../../../environments/environment';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-magazine-carousel',
@@ -14,7 +15,7 @@ export class MagazineCarouselComponent implements OnInit {
   public horizontalScrollValue: number;
   private WebServiceURL;
 
-  constructor() {
+  constructor( private router: Router ) {
     this.WebServiceURL = environment.WebServiceURL;
   }
 
@@ -38,6 +39,9 @@ export class MagazineCarouselComponent implements OnInit {
     return {
       'transform': 'translateX(' + this.horizontalScrollValue + 'px)'
     };
+  }
+  gotoGrid(magazines) {
+    this.router.navigate(['/grid', magazines]);
   }
 
 }

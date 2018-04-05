@@ -31,6 +31,7 @@ import { AdressesComponent } from './adresses/adresses.component';
 import { MagazineCarouselComponent } from './components/magazine-carousel/magazine-carousel.component';
 import { MagazineDaoService } from '../dao/magazine-dao/magazine-dao.service';
 import { FooterComponent } from './footer/footer.component';
+import { GridComponent } from './grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { FooterComponent } from './footer/footer.component';
     ListCreditCardComponent,
     NotfoundComponent,
     MagazineCarouselComponent,
-    FooterComponent
+    FooterComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

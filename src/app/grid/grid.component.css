@@ -1,0 +1,14 @@
+.grid {
+  width: 100%; }
+  .grid .grid-item {
+    display: inline-block; }
+    .grid .grid-item img {
+      width: auto;
+      height: 100%; }
+
+@media screen and (max-width: 768px) {
+  .grid-item {
+    width: 50%;
+    height: 200px; } }
+
+/*# sourceMappingURL=grid.component.css.map */

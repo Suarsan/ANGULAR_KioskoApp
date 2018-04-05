@@ -22,6 +22,8 @@ export class HomeComponent implements OnInit {
   viewedMagazines: Array<any>;
   recommendedMagazines: Array<any>;
   cart: Array<any>;
+  likedMagazines: Array<any>;
+  downloadedMagazines: Array<any>;
 
 
   constructor(private router: Router,
@@ -38,6 +40,10 @@ export class HomeComponent implements OnInit {
                 this.recommendedMagazines[1] = new Array<any>();
                 this.cart = new Array<any>();
                 this.cart[1] = new Array<any>();
+                this.likedMagazines = new Array<any>();
+                this.likedMagazines[1] = new Array<any>();
+                this.downloadedMagazines = new Array<any>();
+                this.downloadedMagazines[1] = new Array<any>();
 
               }
 
@@ -45,6 +51,8 @@ export class HomeComponent implements OnInit {
     this.getMagazines('viewedMagazines', 'Visto recientemente', this.currentUser.ViewedMagazines);
     this.getMagazines('recommendedMagazines', 'Recomendado para ti', this.currentUser.RecommendedMagazines);
     this.getMagazines('cart', 'Tus compras', this.currentUser.Cart);
+    this.getMagazines('likedMagazines', 'Te han gustado', this.currentUser.LikedMagazines);
+    this.getMagazines('downloadedMagazines', 'Tus descargas', this.currentUser.DownloadedMagazines);
   }
 
   private getMagazines(property, carouselTitle, carouselMagazines) {
