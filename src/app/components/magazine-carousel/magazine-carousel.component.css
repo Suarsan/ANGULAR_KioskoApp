@@ -1,0 +1,60 @@
+.carousel .title-carousel {
+  position: relative; }
+.carousel .content-carousel {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0; }
+  .carousel .content-carousel .item-carousel {
+    display: inline-block; }
+    .carousel .content-carousel .item-carousel > div {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 3px;
+      overflow: hidden; }
+      .carousel .content-carousel .item-carousel > div img {
+        width: auto;
+        height: 100%; }
+  .carousel .content-carousel .info-item-carousel {
+    position: absolute;
+    top: 0; }
+  .carousel .content-carousel .arrow-carousel {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white; }
+  .carousel .content-carousel .arrow-carousel:hover {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .carousel .content-carousel .left-arrow {
+    left: 0; }
+  .carousel .content-carousel .right-arrow {
+    right: 0; }
+
+@media screen and (min-width: 992px) {
+  .title-carousel {
+    left: 15%;
+    font-weight: 600;
+    color: #c8c8c8; }
+
+  .content-carousel {
+    width: 85%;
+    left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+    .content-carousel .wrap-carousel .item-carousel {
+      width: 12.5%;
+      height: 200px; }
+      .content-carousel .wrap-carousel .item-carousel .title-carousel {
+        font-size: 15px; }
+    .content-carousel .arrow-carousel {
+      width: 6.25%;
+      font-size: 25px; }
+    .content-carousel .left-arrow {
+      left: 0; }
+    .content-carousel .right-arrow {
+      right: 0; } }
+
+/*# sourceMappingURL=magazine-carousel.component.css.map */

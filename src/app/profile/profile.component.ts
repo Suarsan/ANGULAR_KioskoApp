@@ -19,7 +19,7 @@ export class ProfileComponent implements OnInit {
   constructor(private authService: AuthService,
               private router: Router) {
     this.currentUser = new UserModel();
-    authService.sessionManager();
+    authService.checkUserLocalStorage();
     this.currentUser = authService.currentUser;
     this.WebServiceURL = environment.WebServiceURL;  }
 

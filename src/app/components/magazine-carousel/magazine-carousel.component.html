@@ -1,12 +1,16 @@
 <div class="carousel">
   <div class="title-carousel">
-    <p></p>
+    <p>{{magazines[0]}}</p>
   </div>
   <div class="content-carousel">
     <div #wrapcarousel [ngStyle]="horizontalScroll()" class="wrap-carousel">
-      <div *ngFor="let magazine of magazines" class="item-carousel">
+      <div *ngFor="let magazine of magazines[1]" class="item-carousel">
         <div>
-          <span class="index-carousel"></span>
+          <img src="{{WebServiceURL}}{{magazine.thumbnail}}" alt="">
+          <div class="info-item-carousel">
+              <span class="title-carousel">{{magazine.title}}</span>
+          </div>
+
         </div>
       </div>
     </div>

@@ -19,9 +19,9 @@ export class HomeComponent implements OnInit {
 
   private WebServiceURL: string;
   private currentUser: UserModel;
-  viewedMagazines: Array<MagazineModel>;
-  private fixedMagazines: Array<MagazineModel>;
-  private recommendedMagazines: Array<MagazineModel>;
+  viewedMagazines: Array<any>;
+  recommendedMagazines: Array<any>;
+  cart: Array<any>;
 
 
   constructor(private router: Router,
@@ -29,24 +29,34 @@ export class HomeComponent implements OnInit {
               private userService: UserService,
               private magazineService: MagazineService,
               private magazineDaoService: MagazineDaoService) {
-                authService.refreshDataSession();
                 this.WebServiceURL = environment.WebServiceURL;
-                this.fixedMagazines = new Array<MagazineModel>();
-                this.recommendedMagazines = new Array<MagazineModel>();
-                this.viewedMagazines = new Array<MagazineModel>();
+                authService.checkUserLocalStorage();
+                this.currentUser = this.authService.currentUser;
+                this.viewedMagazines = new Array<any>();
+                this.viewedMagazines[1] = new Array<any>();
+                this.recommendedMagazines = new Array<any>();
+                this.recommendedMagazines[1] = new Array<any>();
+                this.cart = new Array<any>();
+                this.cart[1] = new Array<any>();
+
               }
 
   ngOnInit() {
-    //Si se ha cargado la info hace menos de 5min se recoge el usuario del servicio, si es mas antiguo se hace el refresh
-    // this.authService.refreshDataSession().subscribe(
-    //   user => {
-    //     this.currentUser = user;
-    //   }
-    // );
-    localStorage.setItem('kioskoDate', JSON.stringify(new Date()));
-    this.currentUser = this.authService.currentUser;
-    console.log(this.authService.currentUser.ViewedMagazines);
+    this.getMagazines('viewedMagazines', 'Visto recientemente', this.currentUser.ViewedMagazines);
+    this.getMagazines('recommendedMagazines', 'Recomendado para ti', this.currentUser.RecommendedMagazines);
+    this.getMagazines('cart', 'Tus compras', this.currentUser.Cart);
   }
 
+  private getMagazines(property, carouselTitle, carouselMagazines) {
+    for (let i = 0; i < this.currentUser[property].length; i++) {
+      this.magazineDaoService.get(this.currentUser[property][i]).subscribe(
+        magazine => {
+          this[property][0] = carouselTitle;
+          this[property][1].push(magazine);
 
+
+        }
+      );
+    }
+  }
 }

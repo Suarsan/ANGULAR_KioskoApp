@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 import { MagazineModel } from '../../models/magazine.model';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-magazine-carousel',
@@ -11,19 +12,20 @@ export class MagazineCarouselComponent implements OnInit {
   @Input('magazines') magazines: Array<MagazineModel>;
   @ViewChild('wrapcarousel') wrapcarousel: ElementRef;
   public horizontalScrollValue: number;
+  private WebServiceURL;
 
-  constructor() { }
+  constructor() {
+    this.WebServiceURL = environment.WebServiceURL;
+  }
 
   ngOnInit() {
     this.horizontalScrollValue = 0;
-    console.log(this.magazines);
   }
 
   private moveLeft() {
     if (this.horizontalScrollValue < 0) {
       this.horizontalScrollValue += 50;
     }
-    console.dir(this.magazines);
   }
 
   private moveRight() {
