@@ -1,0 +1,53 @@
+/**** TAMAÑOS PANTALLA ******/
+@screen-xs-max: 767px;
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1170px;
+
+/****** COLORES ********/
+@white: rgba(255, 255, 255, 1);
+@verylightgray: #eeeeee;
+@lightgray: #c8c8c8;
+@darkgray: #646464;
+@blackgray: #333333;
+@black: #0a0a0a;
+@orange: #ffb400;
+@darkorange: rgb(219, 132, 0);
+
+
+.pieDePagina{
+  .footerIndex{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: @blackgray;
+  }
+
+  .footerTitle{
+    margin-bottom: 1.5%;
+    font-weight: bold;
+    font-size: 1.66em;
+    color: @verylightgray;
+  }
+
+  .footerLink a{
+    text-decoration: none;
+    color: @lightgray;
+  }
+
+  .footerLink:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+
+}
+/***** XS *******/
+@media (max-width: @screen-xs-max){
+  .pieDePagina;
+
+}
+
+/***** SM - MD - LG *******/
+@media (min-width: @screen-sm-min) {
+  .pieDePagina;
+}
+

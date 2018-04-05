@@ -1,3 +1,65 @@
-
-
-/*# sourceMappingURL=footer.component.css.map */
+/**** TAMAÑOS PANTALLA ******/
+/****** COLORES ********/
+.pieDePagina .footerIndex {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #333333;
+}
+.pieDePagina .footerTitle {
+  margin-bottom: 1.5%;
+  font-weight: bold;
+  font-size: 1.66em;
+  color: #eeeeee;
+}
+.pieDePagina .footerLink a {
+  text-decoration: none;
+  color: #c8c8c8;
+}
+.pieDePagina .footerLink:hover {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+/***** XS *******/
+@media (max-width: 767px) {
+  .footerIndex {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #333333;
+  }
+  .footerTitle {
+    margin-bottom: 1.5%;
+    font-weight: bold;
+    font-size: 1.66em;
+    color: #eeeeee;
+  }
+  .footerLink a {
+    text-decoration: none;
+    color: #c8c8c8;
+  }
+  .footerLink:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+}
+/***** SM - MD - LG *******/
+@media (min-width: 768px) {
+  .footerIndex {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #333333;
+  }
+  .footerTitle {
+    margin-bottom: 1.5%;
+    font-weight: bold;
+    font-size: 1.66em;
+    color: #eeeeee;
+  }
+  .footerLink a {
+    text-decoration: none;
+    color: #c8c8c8;
+  }
+  .footerLink:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+}
