@@ -1,9 +1,10 @@
 import { UserModel } from '../models/user.model';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NewCreditCardComponent } from '../components/newcreditcard/newcreditcard.component';
 import { ListCreditCardComponent } from '../components/listcreditcard/listcreditcard.component';
 import { UserDaoService } from '../../dao/user-dao/user-dao.service';
 import { AuthService } from '../services/auth-service/auth.service';
+import { WalletModel } from '../models/wallet.model';
 
 @Component({
   selector: 'app-wallet',
@@ -13,6 +14,7 @@ import { AuthService } from '../services/auth-service/auth.service';
 export class WalletComponent implements OnInit {
 
   currentUser: UserModel;
+  @Output() e: EventEmitter<any> = new EventEmitter<any>();
 
   constructor(private authService: AuthService) {
     authService.checkUserLocalStorage();
@@ -20,5 +22,9 @@ export class WalletComponent implements OnInit {
   }
 
   ngOnInit() { }
+
+  refreshCreditcardsList() {
+    this.e.emit();
+  }
 
 }

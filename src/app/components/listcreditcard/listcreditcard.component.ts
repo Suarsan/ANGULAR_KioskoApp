@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import { UserService } from '../../services/user-service/user.service';
 import { WalletModel } from '../../models/wallet.model';
 import { WalletService } from '../../services/wallet-service/wallet.service';
@@ -10,15 +10,20 @@ import { CreditcardModel } from '../../models/creditcard.model';
   templateUrl: './listcreditcard.component.html',
   styleUrls: ['./listcreditcard.component.sass']
 })
-export class ListCreditCardComponent implements OnInit {
+export class ListCreditCardComponent implements OnInit, OnChanges {
 
   @Input('currentUser') currentUser: UserModel;
+  @Input() e: any;
   public wallet: WalletModel;
 
   constructor( private walletService: WalletService) {
   }
 
   ngOnInit() {
+    this.getWallet();
+  }
+
+  ngOnChanges() {
     this.getWallet();
   }
 

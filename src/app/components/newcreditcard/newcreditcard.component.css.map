@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,cAAc;EACZ,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,GAAG",
+"sources": ["newcreditcard.component.sass"],
 "names": [],
 "file": "newcreditcard.component.css"
 }
