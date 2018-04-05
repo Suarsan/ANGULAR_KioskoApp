@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,EAAE;EACA,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,IAAI",
+"sources": ["wallet.component.sass"],
 "names": [],
-"file": "creditcards.component.css"
+"file": "wallet.component.css"
 }

@@ -1,16 +1,19 @@
 export class CreditcardModel {
   private ownerName: string;
+  private name: string;
   private creditcardNumber: string;
   private expirationDate: string;
   private securityCode: string;
 
   constructor(
     ownerName?: string,
+    name?: string,
     creditcardNumber?: string,
     expirationDate?: string,
     securityCode?: string
   ) {
     this.ownerName = ownerName;
+    this.name = name;
     this.creditcardNumber = creditcardNumber;
     this.expirationDate = expirationDate;
     this.securityCode = securityCode;
@@ -22,6 +25,14 @@ export class CreditcardModel {
 
   public set OwnerName(value: string) {
     this.ownerName = value;
+  }
+
+  public get Name(): string {
+    return this.name;
+  }
+
+  public set Name(value: string) {
+    this.name = value;
   }
 
   public get CreditcardNumber(): string {

@@ -15,8 +15,8 @@ export class ListCreditCardComponent implements OnInit, OnChanges {
   @Input() inputWallet: WalletModel;
   @Input('currentUser') currentUser: UserModel;
   @Output() walletEmitted: EventEmitter<WalletModel> = new EventEmitter<WalletModel>();
-
   public wallet: WalletModel;
+  private selectedCreditCard: number;
 
   constructor( private walletService: WalletService) {
   }
@@ -47,5 +47,8 @@ export class ListCreditCardComponent implements OnInit, OnChanges {
         }
       }
     );
+  }
+  selectCreditCard(item) {
+    this.selectedCreditCard = item;
   }
 }

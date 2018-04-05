@@ -19,4 +19,8 @@ export class GridComponent implements OnInit {
     console.log(this.magazines);
   }
 
+  getMagazines(CategoryoIdoLoquesea) {
+    //hacer un get de los magazines dependiendo del id o tipo o categoria que me pasen como parametro
+  }
+
 }

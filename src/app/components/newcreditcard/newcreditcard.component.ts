@@ -23,6 +23,7 @@ export class NewCreditCardComponent implements OnInit {
               private userService: UserService,
               private authService: AuthService,
               private walletService: WalletService) {
+                this.wallet = new WalletModel(0);
                 this.creditcard = new CreditcardModel();
               }
 

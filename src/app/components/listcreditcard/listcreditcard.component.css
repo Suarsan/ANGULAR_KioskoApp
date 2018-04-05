@@ -1,11 +1,56 @@
 .creditcard {
   border: 2px solid #eeeeee;
   border-radius: 4px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #eee; }
 
-.remove-icon {
+.name {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px; }
+
+.ownername {
+  margin-left: 15px;
+  font-size: 15px;
+  color: #aaa; }
+
+.creditcardnumber {
+  margin-left: 15px;
+  font-size: 15px;
+  color: #aaa; }
+
+.expirationdate {
+  margin-left: 25px;
+  font-size: 15px;
+  color: #aaa; }
+
+.securityCode {
+  margin-left: 25px;
+  font-size: 15px;
+  color: #aaa; }
+
+.options {
   position: absolute;
+  display: inline-block;
   top: 5px;
   right: 5px; }
+
+.remove-icon {
+  color: #bbb;
+  background: none;
+  border: none; }
+
+.edit-button {
+  color: #aaa;
+  background: none;
+  border: none;
+  margin-right: 10px; }
+
+.active {
+  background-color: #dddddd;
+  border-color: 2px solid #ededed;
+  border-left: 6px solid #ccc; }
 
 /*# sourceMappingURL=listcreditcard.component.css.map */

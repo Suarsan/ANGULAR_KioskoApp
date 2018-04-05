@@ -32,6 +32,7 @@ import { MagazineCarouselComponent } from './components/magazine-carousel/magazi
 import { MagazineDaoService } from '../dao/magazine-dao/magazine-dao.service';
 import { FooterComponent } from './footer/footer.component';
 import { GridComponent } from './grid/grid.component';
+import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { GridComponent } from './grid/grid.component';
     NotfoundComponent,
     MagazineCarouselComponent,
     FooterComponent,
-    GridComponent
+    GridComponent,
+    EditCreditCardComponent
   ],
   imports: [
     BrowserModule,
