@@ -9,12 +9,14 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { WalletComponent } from './wallet/wallet.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
+import { GridComponent } from './grid/grid.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'index', component: IndexComponent },
   { path: 'signin', component: SigninComponent },
   { path: 'signup', component: SignupComponent },
+  { path: 'grid', component: GridComponent },
   { path: 'magazine', component: DetailComponent },
   { path: 'view', component: ViewComponent },
   { path: 'profile', component: ProfileComponent },

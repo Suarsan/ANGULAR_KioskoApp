@@ -12,10 +12,11 @@ import { AuthService } from '../services/auth-service/auth.service';
 })
 export class WalletComponent implements OnInit {
 
-  private currentUser: UserModel;
+  currentUser: UserModel;
 
-  constructor(private userService: AuthService) {
-    this.currentUser = userService.currentUser;
+  constructor(private authService: AuthService) {
+    authService.checkUserLocalStorage();
+    this.currentUser = this.authService.currentUser;
   }
 
   ngOnInit() { }

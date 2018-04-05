@@ -2,13 +2,11 @@
   <app-menubar></app-menubar>
   <div class="col-xs-12 top-margin">
     <div class="row">
-          <h3>Email: {{currentUser?.Email}}</h3>
-          <a [routerLink]="['/magazine']">Ir a detalle</a>
-    </div>
-    <div class="row">
       <app-magazine-carousel [magazines]="viewedMagazines"></app-magazine-carousel>
       <app-magazine-carousel [magazines]="recommendedMagazines"></app-magazine-carousel>
       <app-magazine-carousel [magazines]="cart"></app-magazine-carousel>
+      <app-magazine-carousel [magazines]="likedMagazines"></app-magazine-carousel>
+      <app-magazine-carousel [magazines]="downloadedMagazines"></app-magazine-carousel>
     </div>
   </div>
 </div>

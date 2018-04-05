@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACH,KAAK,EAAE,IAAI;EACX,gBAAU;IACR,OAAO,EAAE,YAAY;IACrB,oBAAG;MACD,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,IAAI;;AAElB,oCAAoC;EAClC,UAAU;IACR,KAAK,EAAE,GAAG;IACV,MAAM,EAAE,KAAK",
+"sources": ["grid.component.sass"],
+"names": [],
+"file": "grid.component.css"
+}

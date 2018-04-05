@@ -1,29 +1,29 @@
 import { CreditcardModel } from './creditcard.model';
 
 export class WalletModel {
-  private id: (string | number);
-  private userId: (string | number);
+  private id: number;
+  private userId: string | number;
   private creditcards: Array<CreditcardModel>;
 
-  constructor(id: (string | number), userId?: (string | number), creditcards?: Array<CreditcardModel>) {
+  constructor(id: number, userId?: string | number, creditcards?: Array<CreditcardModel>) {
     this.id = id;
     this.userId = userId;
     creditcards === undefined ? this.creditcards = [] : this.creditcards = creditcards; }
 
 
-  public get Id(): (string | number) {
+  public get Id(): number {
     return this.id;
   }
 
-  public set Id(value: (string | number)) {
+  public set Id(value: number) {
     this.id = value;
   }
 
-  public get UserId(): (string | number)  {
+  public get UserId(): string | number  {
     return this.userId;
   }
 
-  public set UserId(value: (string | number) ) {
+  public set UserId(value: string | number ) {
     this.userId = value;
   }
 

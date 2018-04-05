@@ -14,7 +14,7 @@ import { WalletService } from '../../services/wallet-service/wallet.service';
 })
 export class NewCreditCardComponent implements OnInit {
 
-  private currentUser: UserModel;
+  @Input('currentUser') currentUser: UserModel;
   private wallet: WalletModel;
   public creditcard: CreditcardModel;
 
@@ -22,12 +22,13 @@ export class NewCreditCardComponent implements OnInit {
               private userService: UserService,
               private authService: AuthService,
               private walletService: WalletService) {
-                this.currentUser = this.authService.currentUser;
                 this.creditcard = new CreditcardModel();
 
               }
 
-  ngOnInit() { }
+  ngOnInit() {
+    console.log(this.currentUser);
+  }
 
   getCreditCards() {
     this.walletService.getWalletByUserId(this.currentUser).subscribe(

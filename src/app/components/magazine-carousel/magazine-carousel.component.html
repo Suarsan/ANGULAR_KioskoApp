@@ -1,6 +1,7 @@
 <div class="carousel">
   <div class="title-carousel">
-    <p>{{magazines[0]}}</p>
+    <a (click)="gotoGrid(magazines)"><p>{{magazines[0]}}</p></a>
+
   </div>
   <div class="content-carousel">
     <div #wrapcarousel [ngStyle]="horizontalScroll()" class="wrap-carousel">
@@ -8,7 +9,7 @@
         <div>
           <img src="{{WebServiceURL}}{{magazine.thumbnail}}" alt="">
           <div class="info-item-carousel">
-              <span class="title-carousel">{{magazine.title}}</span>
+              <span class="title-carousel"></span>
           </div>
 
         </div>

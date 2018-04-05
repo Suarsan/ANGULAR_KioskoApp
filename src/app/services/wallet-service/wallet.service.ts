@@ -4,6 +4,7 @@ import { UserService } from '../user-service/user.service';
 import { Observable } from 'rxjs/Observable';
 import { WalletDaoService } from '../../../dao/wallet-dao/wallet-dao.service';
 import { WalletModel } from '../../models/wallet.model';
+import { UserModel } from '../../models/user.model';
 
 @Injectable()
 export class WalletService {
@@ -25,15 +26,14 @@ export class WalletService {
     );
   }
 
-  addCreditCard(user, creditcard) {
-    let auxWallet: WalletModel;
+  addCreditCard(user: UserModel, creditcard: CreditcardModel) {
+    let auxWallet: WalletModel = new WalletModel(0);
     return new Observable(
       observable => {
         this.getWalletByUserId(user.Id).subscribe(
           res => {
             if (res.length > 0) {
-              auxWallet = new WalletModel(0);
-              Object.assign(auxWallet, res);
+              Object.assign(auxWallet, res[0]);
               auxWallet.Creditcards.push(creditcard);
               this.walletDAO.change(auxWallet.Id, auxWallet).subscribe(
                 wallet => {
@@ -41,9 +41,8 @@ export class WalletService {
                 }
               );
             } else {
-              auxWallet = new WalletModel(0);
-              // auxWallet.UserId(user.Id);
-              // auxWallet.Creditcards(new Array<CreditcardModel>());
+              auxWallet.UserId = user.Id;
+              auxWallet.Creditcards = new Array<CreditcardModel>();
               auxWallet.pushCreditcard(creditcard);
               this.walletDAO.add(auxWallet).subscribe(
                 wallet => {
