@@ -31,6 +31,8 @@ export class HomeComponent implements OnInit {
               private userService: UserService,
               private magazineService: MagazineService,
               private magazineDaoService: MagazineDaoService) {
+                this.authService.checkUserLocalStorage();
+                this.currentUser = this.authService.currentUser;
                 this.WebServiceURL = environment.WebServiceURL;
                 this.viewedMagazines = new Array<any>();
                 this.viewedMagazines[1] = new Array<any>();
