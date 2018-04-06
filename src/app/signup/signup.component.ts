@@ -13,6 +13,8 @@ export class SignupComponent implements OnInit {
   email: string;
   pass: string;
   private user: UserModel;
+  public agree = false;
+  public message = '';
 
   constructor(private authService: AuthService,
               private router: Router) { }
@@ -20,16 +22,22 @@ export class SignupComponent implements OnInit {
   ngOnInit() { }
 
   private signUp() {
-    this.authService.signUp(this.email, this.pass).subscribe(
-      registeredUser => {
-        if (registeredUser) {
-          localStorage.setItem('kioskoUser', JSON.stringify(<UserModel>registeredUser));
-          localStorage.setItem('kioskoDate', JSON.stringify(new Date()));
-          this.router.navigate(['/']);
-        } else {
-          console.log('No se pudo completar el registro');
+    console.dir(this.agree);
+
+    if (this.agree) {
+      this.authService.signUp(this.email, this.pass).subscribe(
+        registeredUser => {
+          if (registeredUser) {
+            localStorage.setItem('kioskoUser', JSON.stringify(<UserModel>registeredUser));
+            localStorage.setItem('kioskoDate', JSON.stringify(new Date()));
+            this.router.navigate(['/']);
+          } else {
+            console.log('No se pudo completar el registro');
+          }
         }
-      }
-    );
+      );
+    } else {
+      this.message = 'Términos y condiciones desmarcado';
+        }
   }
 }

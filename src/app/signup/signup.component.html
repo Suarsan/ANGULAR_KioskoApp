@@ -5,28 +5,44 @@
 </div>
 
 <div class="row">
-  <div class="col-xs-12">
-    <div class="row">
-      <div class="col-xs-12 text-center signinTitle">
-        <h1>REGISTER</h1>
-      </div>
-    </div>
-    <div class="row formul">
-      <input type="email" [(ngModel)]="email" placeholder="Introduce tu email" class="col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2 formulBox">
-      <input type="password" [(ngModel)]="pass" placeholder="Introduce tu contraseña" class="col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2 formulBox">
-      <div class="checkbox col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2">
-          <label>
-            <input type="checkbox" name="aceptar"><a [routerLink]="['/termsandconditions']">He leído los términos y condiciones del servicio.</a>
-          </label>
-        </div>
-
-      <div class="col-xs-12">
-        <button (click)="signUp()" class="btn center-block abm_btn enviarBtn">Registrarse</button>
-      </div>
-    </div>
-  </div>
-  <div class="col-xs-12 text-center goToRegister">
-    <a [routerLink]="['/signin']">Ya estoy registrado</a>
+  <div class="col-xs-12 text-center signinTitle">
+    <h1>REGISTER</h1>
   </div>
 </div>
+
+<div class="row">
+  <div class="formul">
+    <div class="col-xs-offset-1 col-xs-11 col-sm-8 col-sm-offset-2">
+      <label for="userEmail"></label>
+      <input type="email" [(ngModel)]="email" placeholder="Introduce tu email" class="formulBox" id="userEmail" required>
+    </div>
+    <div class="col-xs-offset-1 col-xs-11 col-sm-8 col-sm-offset-2">
+      <label for="userPwd"></label>
+      <input type="password" [(ngModel)]="pass" placeholder="Introduce tu contraseña" class=" formulBox" id="userPwd" required>
+    </div>
+  </div>
+
+  <div class=" col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2">
+    <label>
+      <input class="input" type="checkbox" id="invalidCheck" required [(ngModel)]="agree">
+      <a [routerLink]="['/termsandconditions']">He leído los términos y condiciones del servicio.</a>
+    </label>
+  </div>
+
+</div>
+
+<div class="col-xs-12">
+  <button (click)="signUp()" type="submit" class="btn center-block abm_btn enviarBtn">Registrarse</button>
+</div>
+
+<div class="col-xs-12 text-center goToRegister">
+  <a [routerLink]="['/signin']">Ya estoy registrado</a>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">{{message}}</div>
+</div>
+
+
+
 <app-footer></app-footer>
