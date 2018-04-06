@@ -28,17 +28,18 @@
   .footerTitle{
     margin-bottom: 1.5%;
     font-weight: bold;
-    font-size: 1.66em;
+    font-size: 1.4em;
     color: @verylightgray;
   }
 
   .footerLink a{
     text-decoration: none;
     color: @lightgray;
+    font-size: 1em;
   }
 
   .footerLink:hover{
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: underline;
   }
 
@@ -46,11 +47,17 @@
 /***** XS *******/
 @media (max-width: @screen-xs-max){
   .pieDePagina;
+  .footerIndex{
+    height: 100px;
+  }
 
 }
 
 /***** SM - MD - LG *******/
 @media (min-width: @screen-sm-min) {
   .pieDePagina;
+  .footerIndex{
+    height: 50px;
+  }
 }
 

@@ -11,15 +11,16 @@
 .pieDePagina .footerTitle {
   margin-bottom: 1.5%;
   font-weight: bold;
-  font-size: 1.66em;
+  font-size: 1.4em;
   color: #eeeeee;
 }
 .pieDePagina .footerLink a {
   text-decoration: none;
   color: #c8c8c8;
+  font-size: 1em;
 }
 .pieDePagina .footerLink:hover {
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-decoration: underline;
 }
 /***** XS *******/
@@ -35,16 +36,20 @@
   .footerTitle {
     margin-bottom: 1.5%;
     font-weight: bold;
-    font-size: 1.66em;
+    font-size: 1.4em;
     color: #eeeeee;
   }
   .footerLink a {
     text-decoration: none;
     color: #c8c8c8;
+    font-size: 1em;
   }
   .footerLink:hover {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: underline;
+  }
+  .footerIndex {
+    height: 100px;
   }
 }
 /***** SM - MD - LG *******/
@@ -60,15 +65,19 @@
   .footerTitle {
     margin-bottom: 1.5%;
     font-weight: bold;
-    font-size: 1.66em;
+    font-size: 1.4em;
     color: #eeeeee;
   }
   .footerLink a {
     text-decoration: none;
     color: #c8c8c8;
+    font-size: 1em;
   }
   .footerLink:hover {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: underline;
+  }
+  .footerIndex {
+    height: 50px;
   }
 }
