@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,KAAK;EACH,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,MAAM;EAClB,YAAM;IACJ,aAAa,EAAE,IAAI",
-"sources": ["edit-credit-card.component.sass"],
-"names": [],
-"file": "edit-credit-card.component.css"
-}
