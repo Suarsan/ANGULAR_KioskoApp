@@ -1,0 +1,166 @@
+/**** TAMAÑOS PANTALLA ******/
+/****** COLORES ********/
+/******** SOMBRAS **********/
+/**** BOTONES ****/
+.abm_btn {
+  box-shadow: 2px 2px 5px #646464;
+  text-shadow: 1px 1px 2px #646464;
+  border-radius: 15px;
+  font-size: 1.2em;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+/**** FORMULARIO ****/
+.borderFormul {
+  border-bottom-color: #646464;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom-width: 2px;
+}
+/***** ENCABEZADO PÁGINAS 'SIGN' ******/
+.encabezadoSign .signHeader {
+  background-color: #0a0a0a;
+  height: 75px;
+  top: 0;
+}
+.encabezadoSign .signHeader h1 {
+  font-weight: 700;
+  font-size: 2em;
+  color: #c8c8c8;
+}
+/***** XS *******/
+@media (max-width: 767px) {
+  .signHeader {
+    background-color: #0a0a0a;
+    height: 75px;
+    top: 0;
+  }
+  .signHeader h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #c8c8c8;
+  }
+  .signinTitle {
+    padding-top: 100px;
+  }
+  .signinTitle h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .formul {
+    margin-bottom: 5%;
+  }
+  .formulBox {
+    border-bottom-color: #646464;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-width: 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .formul a {
+    text-decoration: none;
+    color: #646464;
+    font-size: 1em;
+  }
+  .enviarBtn {
+    box-shadow: 2px 2px 5px #646464;
+    text-shadow: 1px 1px 2px #646464;
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .goToRegister {
+    margin-bottom: 2.5%;
+  }
+  .goToRegister a {
+    text-decoration: none;
+    color: #db8400;
+  }
+  .goToRegister a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+/***** SM *******/
+@media (min-width: 768px) {
+  .signHeader {
+    background-color: #0a0a0a;
+    height: 75px;
+    top: 0;
+  }
+  .signHeader h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #c8c8c8;
+  }
+  .signinTitle {
+    padding-top: 100px;
+  }
+  .signinTitle h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 2%;
+  }
+  .formulBox {
+    border-bottom-color: #646464;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-width: 2px;
+    margin-top: 3.5%;
+    margin-bottom: 2.5%;
+  }
+  .enviarBtn {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .goToRegister {
+    margin-bottom: 3%;
+  }
+  .goToRegister a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #db8400;
+    margin: 0;
+  }
+  .goToRegister a:hover {
+    font-size: 1.8em;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+/***** MD *******/
+@media (min-width: 992px) {
+  .signinTitle h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+  .formulBox {
+    border-bottom-color: #646464;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-width: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .enviarBtn {
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .goToRegister {
+    margin-bottom: 3%;
+  }
+  .goToRegister a {
+    font-size: 1.2em;
+  }
+  .goToRegister a:hover {
+    font-size: 1.4em;
+  }
+}

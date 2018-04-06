@@ -33,6 +33,9 @@ import { MagazineDaoService } from '../dao/magazine-dao/magazine-dao.service';
 import { FooterComponent } from './footer/footer.component';
 import { GridComponent } from './grid/grid.component';
 import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.component';
+import { ThermsComponent } from './therms/therms.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +58,10 @@ import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.com
     MagazineCarouselComponent,
     FooterComponent,
     GridComponent,
-    EditCreditCardComponent
+    EditCreditCardComponent,
+    ThermsComponent,
+    PrivacyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

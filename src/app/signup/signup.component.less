@@ -1,0 +1,169 @@
+/**** TAMAÑOS PANTALLA ******/
+@screen-xs-max: 767px;
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1170px;
+
+/****** COLORES ********/
+@white: rgba(255, 255, 255, 1);
+@verylightgray: #eeeeee;
+@lightgray: #c8c8c8;
+@darkgray: #646464;
+@blackgray: #333333;
+@black: #0a0a0a;
+@orange: #ffb400;
+@darkorange: rgb(219, 132, 0);
+
+/******** SOMBRAS **********/
+@boxShadow: 2px 2px 5px @darkgray;
+@textDarkShadow: 1px 1px 2px @darkgray;
+@textLightShadow: 1px 1px 2px @lightgray;
+
+/**** BOTONES ****/
+.abm_btn {
+  box-shadow: @boxShadow;
+  text-shadow: @textDarkShadow;
+  border-radius: 15px;
+  font-size: 1.2em;
+  padding-right: 2.5%;
+  padding-left: 2.5%
+}
+
+/**** FORMULARIO ****/
+.borderFormul {
+  border-bottom-color: @darkgray;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom-width: 2px;
+}
+
+/***** ENCABEZADO PÁGINAS 'SIGN' ******/
+.encabezadoSign {
+  .signHeader {
+    background-color: @black;
+    height: 75px;
+    top: 0;
+  }
+
+  .signHeader h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: @lightgray;
+  }
+}
+
+/***** XS *******/
+@media (max-width: @screen-xs-max){
+  .encabezadoSign;
+  .signinTitle {
+    padding-top: 100px;
+  }
+  .signinTitle h1{
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .formul{
+    margin-bottom: 5%;
+  }
+  .formulBox{
+    .borderFormul;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .formul a{
+    text-decoration: none;
+    color: @darkgray;
+    font-size: 1em;
+  }
+
+  .enviarBtn{
+    .abm_btn;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .goToRegister{
+    margin-bottom: 2.5%;
+  }
+  .goToRegister a{
+    text-decoration: none;
+    color: @darkorange;
+  }
+
+  .goToRegister a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+/***** SM *******/
+@media (min-width: @screen-sm-min) {
+  .encabezadoSign;
+  .signinTitle {
+    padding-top: 100px;
+  }
+  .signinTitle h1{
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 2%;
+  }
+  .formulBox{
+    .borderFormul;
+    margin-top: 3.5%;
+    margin-bottom: 2.5%;
+  }
+
+  .enviarBtn{
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .goToRegister{
+    margin-bottom: 3%;
+  }
+  .goToRegister a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: @darkorange;
+    margin: 0;
+  }
+
+  .goToRegister a:hover{
+    font-size: 1.8em;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+}
+
+/***** MD *******/
+@media (min-width: @screen-md-min) {
+  .signinTitle h1{
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+  .formulBox{
+    .borderFormul;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .enviarBtn{
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+
+  .goToRegister{
+    margin-bottom: 3%;
+  }
+  .goToRegister a{
+    font-size: 1.2em;
+  }
+
+  .goToRegister a:hover{
+    font-size: 1.4em;
+  }
+
+}

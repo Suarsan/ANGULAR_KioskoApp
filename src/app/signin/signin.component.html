@@ -14,13 +14,17 @@
     <div class="row formul">
       <input type="email" [(ngModel)]="email" placeholder="Introduce tu email" class="col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2 formulBox">
       <input type="password" [(ngModel)]="pass" placeholder="Introduce tu contraseña" class="col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2 formulBox">
+      <div class="checkbox col-xs-offset-1 col-xs-10 col-sm-8 col-sm-offset-2">
+          <label>
+            <input type="checkbox" name="remember">Recordar datos
+          </label>
+        </div>
+
       <div class="col-xs-12">
-        <button (click)="signIn()" class="btn center-block abm_btn  enviarBtn">Entrar</button>
+        <button (click)="signIn()" class="btn center-block abm_btn enviarBtn">Entrar</button>
       </div>
     </div>
   </div>
-</div>
-<div class="row">
   <div class="col-xs-12 text-center goToRegister">
     <a [routerLink]="['/signup']">¿Aún no te has unido a KIOSKO?</a>
   </div>

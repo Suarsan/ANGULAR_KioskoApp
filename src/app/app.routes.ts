@@ -11,6 +11,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
 import { GridComponent } from './grid/grid.component';
 import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.component';
+import { ThermsComponent } from './therms/therms.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -24,5 +27,8 @@ export const routes: Routes = [
   { path: 'adresses', component: AdressesComponent },
   { path: 'wallet', component: WalletComponent },
   { path: 'editCreditCard', component: EditCreditCardComponent},
+  { path: 'termsandconditions', component: ThermsComponent },
+  { path: 'privacy_policy', component: PrivacyComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', component: NotfoundComponent },
 ];
