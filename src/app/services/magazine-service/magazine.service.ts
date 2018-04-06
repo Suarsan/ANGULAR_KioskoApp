@@ -10,7 +10,7 @@ export class MagazineService {
   constructor( private magazineDaoService: MagazineDaoService) { }
 
   public getMagazinesByProperty(property, value) {
-    return new Observable(
+    return new Observable<MagazineModel[]>(
       observable => {
         this.magazineDaoService.getProperty(property, value).subscribe(
           magazines => {

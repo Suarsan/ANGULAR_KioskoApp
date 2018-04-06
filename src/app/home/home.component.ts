@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
 
   private WebServiceURL: string;
   private currentUser: UserModel;
+  sliderMagazines: Array<any>;
   viewedMagazines: Array<any>;
   recommendedMagazines: Array<any>;
   cart: Array<any>;
@@ -34,6 +35,8 @@ export class HomeComponent implements OnInit {
                 this.authService.checkUserLocalStorage();
                 this.currentUser = this.authService.currentUser;
                 this.WebServiceURL = environment.WebServiceURL;
+                this.sliderMagazines = new Array<any>();
+                this.sliderMagazines[1] = new Array<any>();
                 this.viewedMagazines = new Array<any>();
                 this.viewedMagazines[1] = new Array<any>();
                 this.recommendedMagazines = new Array<any>();
@@ -47,6 +50,7 @@ export class HomeComponent implements OnInit {
               }
 
   ngOnInit() {
+    this.getMagazines('sliderMagazines', 'Slider', this.currentUser.SliderMagazines);
     this.getMagazines('viewedMagazines', 'Visto recientemente', this.currentUser.ViewedMagazines);
     this.getMagazines('recommendedMagazines', 'Recomendado para ti', this.currentUser.RecommendedMagazines);
     this.getMagazines('cart', 'Tus compras', this.currentUser.Cart);
@@ -60,8 +64,6 @@ export class HomeComponent implements OnInit {
         magazine => {
           this[property][0] = carouselTitle;
           this[property][1].push(magazine);
-
-
         }
       );
     }
