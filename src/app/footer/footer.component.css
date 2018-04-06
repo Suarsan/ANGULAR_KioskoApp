@@ -1,6 +1,9 @@
 /**** TAMAÑOS PANTALLA ******/
 /****** COLORES ********/
 .pieDePagina .footerIndex {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
   background-color: #333333;
@@ -22,6 +25,9 @@
 /***** XS *******/
 @media (max-width: 767px) {
   .footerIndex {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #333333;
@@ -44,6 +50,9 @@
 /***** SM - MD - LG *******/
 @media (min-width: 768px) {
   .footerIndex {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #333333;
