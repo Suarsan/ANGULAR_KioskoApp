@@ -26,7 +26,7 @@ export const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'adresses', component: AdressesComponent },
   { path: 'wallet', component: WalletComponent },
-  { path: 'editCreditCard', component: EditcreditcardComponent},
+  { path: 'editcreditcard', component: EditcreditcardComponent},
   { path: 'termsandconditions', component: ThermsComponent },
   { path: 'privacy_policy', component: PrivacyComponent },
   { path: 'contact', component: ContactComponent },

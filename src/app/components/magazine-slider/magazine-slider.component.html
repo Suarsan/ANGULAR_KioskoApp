@@ -1,0 +1,16 @@
+<div class="slider">
+    <div class="content-slider">
+      <div [ngStyle]="horizontalScroll()" class="wrap-slider">
+        <div *ngFor="let magazine of magazines[1]" class="item-slider">
+          <div>
+            <img src="{{WebServiceURL}}{{magazine.thumbnail}}" alt="">
+            <div class="info-item-slider">
+                <span class="title-slider"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div (click)="moveLeft()" class="left-arrow arrow-slider"></div>
+      <div (click)="moveRight()" class="right-arrow arrow-slider"></div>
+    </div>
+  </div>

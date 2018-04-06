@@ -1,21 +1,21 @@
 /*
-Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.
-        on line 129 of ./app/components/magazine-carousel/magazine-carousel.component.sass
+Error: Inconsistent indentation: 10 spaces were used for indentation, but the rest of the document was indented using 4 spaces.
+        on line 6 of ./app/components/magazine-carousel/magazine-carousel.component.sass
 
-124:             left: 0
-125:         .right-arrow
-126:             right: 0
-127: 
-128: @media screen and (min-width:1201px)
-129:   .carousel
-130:     .title-carousel
-131:         left: 15%
-132:         color: rgba(200,200,200,1)
-133:     .content-carousel
-134:         width: 85%
+1: .carousel
+2:     .title-carousel
+3:         position: relative
+4:         font-weight: 400
+5:         a
+6:           color: rgba(200,200,200,1)
+7:         a:hover
+8:           text-decoration: none
+9:     .content-carousel
+10:         position: relative
+11:         white-space: nowrap
 
 Backtrace:
-./app/components/magazine-carousel/magazine-carousel.component.sass:129
+./app/components/magazine-carousel/magazine-carousel.component.sass:6
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:494:in `block in tabulate'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:452:in `each'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:452:in `each_with_index'
@@ -41,4 +41,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 129 of ./app/components/magazine-carousel/magazine-carousel.component.sass\A \A 124:             left: 0\A 125:         .right-arrow\A 126:             right: 0\A 127: \A 128: @media screen and (min-width:1201px)\A 129:   .carousel\A 130:     .title-carousel\A 131:         left: 15%\A 132:         color: rgba(200,200,200,1)\A 133:     .content-carousel\A 134:         width: 85%"; }
+  content: "Error: Inconsistent indentation: 10 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 6 of ./app/components/magazine-carousel/magazine-carousel.component.sass\A \A 1: .carousel\A 2:     .title-carousel\A 3:         position: relative\A 4:         font-weight: 400\A 5:         a\A 6:           color: rgba(200,200,200,1)\A 7:         a:hover\A 8:           text-decoration: none\A 9:     .content-carousel\A 10:         position: relative\A 11:         white-space: nowrap"; }

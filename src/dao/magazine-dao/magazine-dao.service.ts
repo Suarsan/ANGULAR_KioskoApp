@@ -19,7 +19,7 @@ export class MagazineDaoService {
     return this.http.get<MagazineModel>(this.BASE_URL + '/' + id, this.options);
   }
   public getProperty(property: string, value: string) {
-    return this.http.get<MagazineModel | MagazineModel[]>(this.BASE_URL + '/?' + property + '=' + value, this.options);
+    return this.http.get<MagazineModel[]>(this.BASE_URL + '/?' + property + '=' + value, this.options);
   }
   public add (item: MagazineModel) {
     return this.http.post<MagazineModel>(this.BASE_URL, item, this.options);

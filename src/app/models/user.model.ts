@@ -12,6 +12,7 @@ export class UserModel {
   private pass: string;
   private birthdate: string;
   private addresses: Array<AddressModel>;
+  private sliderMagazines: Array<string>;
   private viewedMagazines: Array<string>;
   private likedMagazines: Array<string>;
   private recommendedMagazines: Array<string>;
@@ -27,6 +28,7 @@ export class UserModel {
                boardSignature?: string,
                birthdate?: string,
                addresses?: Array<AddressModel>,
+               sliderMagazines?: Array<string>,
                viewedMagazines?: Array<string>,
                likedMagazines?: Array<string>,
                recommendedMagazines?: Array<string>,
@@ -39,13 +41,14 @@ export class UserModel {
     this.pass = pass;
     name === undefined ? this.name = '' : this.name = name ;
     lastName === undefined ? this.lastName = '' : this.lastName = lastName ;
-    thumbnail === undefined ? this.thumbnail = '' : this.thumbnail = thumbnail ;
+    thumbnail === undefined ? this.thumbnail = '/assets/userProfileImages/userprofileImageExample.png' : this.thumbnail = thumbnail ;
     boardSignature === undefined ? this.boardSignature = '' : this.boardSignature = boardSignature ;
     birthdate === undefined ? this.birthdate = '' : this.birthdate = birthdate ;
     addresses === undefined ? this.addresses = [] : this.addresses = addresses ;
+    sliderMagazines === undefined ? this.sliderMagazines = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'] : this.sliderMagazines = viewedMagazines ;
     viewedMagazines === undefined ? this.viewedMagazines = [] : this.viewedMagazines = viewedMagazines ;
-    likedMagazines === undefined ? this.likedMagazines = [] : this.likedMagazines = likedMagazines ;
-    recommendedMagazines === undefined ? this.recommendedMagazines = [] : this.recommendedMagazines = recommendedMagazines;
+    likedMagazines === undefined ? this.likedMagazines = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'] : this.likedMagazines = likedMagazines ;
+    recommendedMagazines === undefined ? this.recommendedMagazines = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'] : this.recommendedMagazines = recommendedMagazines;
     cart === undefined ? this.cart = [] : this.cart = cart ;
     downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines; }
 
@@ -119,6 +122,14 @@ export class UserModel {
 
   public set Addresses(value: Array<AddressModel>) {
     this.addresses = value;
+  }
+
+  public get SliderMagazines(): Array<string> {
+    return this.sliderMagazines;
+  }
+
+  public set SliderMagazines(value: Array<string>) {
+    this.sliderMagazines = value;
   }
 
   public get ViewedMagazines(): Array<string> {

@@ -36,6 +36,7 @@ import { EditcreditcardComponent } from './editcreditcard/editcreditcard.compone
 import { ThermsComponent } from './therms/therms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
+import { MagazineSliderComponent } from './components/magazine-slider/magazine-slider.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { ContactComponent } from './contact/contact.component';
     EditcreditcardComponent,
     ThermsComponent,
     PrivacyComponent,
-    ContactComponent
+    ContactComponent,
+    MagazineSliderComponent
   ],
   imports: [
     BrowserModule,
