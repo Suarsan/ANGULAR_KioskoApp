@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
   styleUrls: ['./index.component.css']
 })
 export class IndexComponent implements OnInit {
-  private WebServiceURL;
+  public WebServiceURL;
 
   constructor() { this.WebServiceURL = environment.WebServiceURL; }
 

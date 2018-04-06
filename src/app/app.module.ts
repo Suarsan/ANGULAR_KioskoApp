@@ -32,7 +32,7 @@ import { MagazineCarouselComponent } from './components/magazine-carousel/magazi
 import { MagazineDaoService } from '../dao/magazine-dao/magazine-dao.service';
 import { FooterComponent } from './footer/footer.component';
 import { GridComponent } from './grid/grid.component';
-import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.component';
+import { EditcreditcardComponent } from './editcreditcard/editcreditcard.component';
 import { ThermsComponent } from './therms/therms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
@@ -58,7 +58,7 @@ import { ContactComponent } from './contact/contact.component';
     MagazineCarouselComponent,
     FooterComponent,
     GridComponent,
-    EditCreditCardComponent,
+    EditcreditcardComponent,
     ThermsComponent,
     PrivacyComponent,
     ContactComponent

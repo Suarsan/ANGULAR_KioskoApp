@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import {Routes } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
@@ -10,7 +10,7 @@ import { WalletComponent } from './wallet/wallet.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
 import { GridComponent } from './grid/grid.component';
-import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.component';
+import { EditcreditcardComponent } from './editcreditcard/editcreditcard.component';
 import { ThermsComponent } from './therms/therms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
@@ -26,7 +26,7 @@ export const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'adresses', component: AdressesComponent },
   { path: 'wallet', component: WalletComponent },
-  { path: 'editCreditCard', component: EditCreditCardComponent},
+  { path: 'editCreditCard', component: EditcreditcardComponent},
   { path: 'termsandconditions', component: ThermsComponent },
   { path: 'privacy_policy', component: PrivacyComponent },
   { path: 'contact', component: ContactComponent },

@@ -10,8 +10,8 @@ import { UserModel } from '../models/user.model';
 })
 export class SigninComponent implements OnInit {
 
-  private email: string;
-  private pass: string;
+  public email: string;
+  public pass: string;
 
   constructor(private authService: AuthService, private router: Router) {
     this.email = '';
