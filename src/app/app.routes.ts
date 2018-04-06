@@ -10,7 +10,6 @@ import { WalletComponent } from './wallet/wallet.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AdressesComponent } from './adresses/adresses.component';
 import { GridComponent } from './grid/grid.component';
-import { EditCreditCardComponent } from './edit-credit-card/edit-credit-card.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -23,6 +22,5 @@ export const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'adresses', component: AdressesComponent },
   { path: 'wallet', component: WalletComponent },
-  { path: 'editCreditCard', component: EditCreditCardComponent},
   { path: '**', component: NotfoundComponent },
 ];
