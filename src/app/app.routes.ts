@@ -28,7 +28,7 @@ export const routes: Routes = [
   { path: 'wallet', component: WalletComponent },
   { path: 'editcreditcard', component: EditcreditcardComponent},
   { path: 'termsandconditions', component: ThermsComponent },
-  { path: 'privacy_policy', component: PrivacyComponent },
+  { path: 'privacy', component: PrivacyComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', component: NotfoundComponent },
 ];
