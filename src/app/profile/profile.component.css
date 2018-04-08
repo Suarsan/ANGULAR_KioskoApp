@@ -1,3 +1,54 @@
-
-
-/*# sourceMappingURL=profile.component.css.map */
+/**** TAMAÑOS PANTALLA ******/
+/****** COLORES ********/
+/**** BOTONES ****/
+.abm_btn {
+  box-shadow: 2px 2px 5px #646464;
+  text-shadow: 1px 1px 2px #646464;
+  border-radius: 15px;
+  font-size: 1.2em;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+/******** SOMBRAS **********/
+/**** FORMULARIO ****/
+.borderFormul {
+  border-bottom-color: #646464;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom-width: 2px;
+}
+/***** XS *******/
+@media (max-width: 767px) {
+  .userImg {
+    padding-top: 2%;
+    margin-bottom: 2%;
+  }
+  .formul {
+    margin-bottom: 5%;
+  }
+}
+/***** SM *******/
+@media (min-width: 768px) {
+  .formulBox {
+    border-bottom-color: #646464;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-width: 2px;
+    margin-top: 3.5%;
+    margin-bottom: 2.5%;
+  }
+}
+/***** MD *******/
+@media (min-width: 992px) {
+  .formulBox {
+    border-bottom-color: #646464;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-width: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
