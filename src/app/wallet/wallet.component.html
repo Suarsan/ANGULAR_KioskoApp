@@ -1,8 +1,8 @@
 <div class="row">
   <app-menubar></app-menubar>
-  <div class="col-xs-12 top-margin">
+  <div class="col-xs-12 top-margin userSettingsPage">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 text-center userSettings">
         <h4>Mis tarjetas de crédito</h4>
         <app-listcreditcard [currentUser]="currentUser" [inputWallet]="wallet"></app-listcreditcard>
         <app-newcreditcard [currentUser]="currentUser" (walletEmitted)="refreshCreditcardsList($event)"></app-newcreditcard>

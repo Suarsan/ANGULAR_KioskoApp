@@ -9,7 +9,7 @@ import { WalletModel } from '../models/wallet.model';
 @Component({
   selector: 'app-wallet',
   templateUrl: './wallet.component.html',
-  styleUrls: ['./wallet.component.sass']
+  styleUrls: ['./wallet.component.less']
 })
 export class WalletComponent implements OnInit {
 
