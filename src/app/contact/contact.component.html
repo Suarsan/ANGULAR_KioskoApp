@@ -1,3 +1,38 @@
-<p>
-  contact works!
-</p>
+<div class="row">
+  <div class="container">
+    <div class="col-xs-12 text-center navbar-fixed-top signHeader">
+      <h1>KIOSKO ESPAÑA</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 emptyDiv"></div>
+</div>
+
+<div class="row">
+  <div class="container-fluid col-xs-10 col-xs-offset-1 formul">
+    <div class="row">
+      <div class="col-xs-12 text-center signinTitle">
+        <h1>Formulario de contacto</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <input type="text" [(ngModel)]="nombre" placeholder="Nombre" class="col-xs-offset-1 col-xs-10  formulBox">
+        <input type="text" [(ngModel)]="apellidos" placeholder="Apellidos" class="col-xs-offset-1 col-xs-10 formulBox">
+        <input type="email" [(ngModel)]="email" required [(ngModel)]="agree" placeholder="tucorreo@tucorreo.com" class="col-xs-offset-1 col-xs-10 formulBox">
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <textarea name="message" [(ngModel)]="mensaje" required [(ngModel)]="agree" maxlength="500" placeholder="Introduce aquí tu mensaje..." class="col-xs-10 col-xs-offset-1 col-sm-11 col-sm-offset-0 formulTextBox"></textarea>
+      </div>
+    </div>
+
+    <div class="col-xs-12">
+      <button (click)="Accept()" class="btn center-block abm_btn enviarBtn">Aceptar</button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
