@@ -21,7 +21,7 @@ export const routes: Routes = [
   { path: 'signin', component: SigninComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'grid', component: GridComponent },
-  { path: 'magazine', component: DetailComponent },
+  { path: 'magazine/:id', component: DetailComponent },
   { path: 'view', component: ViewComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'adresses', component: AdressesComponent },

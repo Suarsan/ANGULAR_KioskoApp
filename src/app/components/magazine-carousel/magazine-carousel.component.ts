@@ -43,5 +43,9 @@ export class MagazineCarouselComponent implements OnInit {
   gotoGrid(magazines) {
     this.router.navigate(['/grid', magazines]);
   }
+  gotoDetail(magazine: MagazineModel) {
+    console.log('magazine');
+    this.router.navigate(['/magazine', magazine.Id]);
+  }
 
 }

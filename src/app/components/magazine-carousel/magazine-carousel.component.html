@@ -6,8 +6,8 @@
   <div class="content-carousel">
     <div #wrapcarousel [ngStyle]="horizontalScroll()" class="wrap-carousel">
       <div *ngFor="let magazine of magazines[1]" class="item-carousel">
-        <div>
-          <img src="{{WebServiceURL}}{{magazine.thumbnail}}" alt="">
+        <div (click)="gotoDetail(magazine)">
+          <img  src="{{WebServiceURL}}{{magazine.thumbnail}}" alt="">
           <div class="info-item-carousel">
               <span class="title-carousel"></span>
           </div>

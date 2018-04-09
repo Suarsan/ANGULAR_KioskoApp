@@ -47,8 +47,8 @@ export class UserModel {
     addresses === undefined ? this.addresses = [] : this.addresses = addresses ;
     sliderMagazines === undefined ? this.sliderMagazines = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'] : this.sliderMagazines = viewedMagazines ;
     viewedMagazines === undefined ? this.viewedMagazines = [] : this.viewedMagazines = viewedMagazines ;
-    likedMagazines === undefined ? this.likedMagazines = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'] : this.likedMagazines = likedMagazines ;
-    recommendedMagazines === undefined ? this.recommendedMagazines = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'] : this.recommendedMagazines = recommendedMagazines;
+    likedMagazines === undefined ? this.likedMagazines = ['11', '12', '13', '14', '15', '16', '17', '18', '19', '20'] : this.likedMagazines = likedMagazines ;
+    recommendedMagazines === undefined ? this.recommendedMagazines = ['21', '22', '23', '24', '25', '26', '27', '28', '29', '10'] : this.recommendedMagazines = recommendedMagazines;
     cart === undefined ? this.cart = [] : this.cart = cart ;
     downloadedMagazines === undefined ? this.downloadedMagazines = [] : this.downloadedMagazines = downloadedMagazines; }
 
