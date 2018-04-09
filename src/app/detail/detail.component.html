@@ -1,75 +1,85 @@
-<main class="container-fluid">
-  <div class="row">
-      <div class="col-xs-12 col-md-offset-1 col-md-5 ss_detail-thumbnail">
-        <img src="{{WebServiceUrl}}{{magazine.Thumbnail}}" alt="">
-          <i class="fa fa-search-plus"></i>
-      </div>
-      <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-5 ss_detail-info">
-          <div class="row">
-              <div class="col-xs-8">
-                  <div class="row">
-                      <div class="col-xs-12">
-                          <div class="ss_rating">
-                              <select id="example" >
-                                  <option value="1">1</option>
-                                  <option value="2">2</option>
-                                  <option value="3">3</option>
-                                  <option value="4">4</option>
-                                  <option value="5">5</option>
-                              </select>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-xs-12">
-                          <div class="ss_info">
-                              <h3 class="ss_title">
-                              </h3>
-                             <h4 class="ss_author"> <a href=""></a></h4>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xs-4">
-                  <i class="glyphicon glyphicon-heart ss_detail-like-icon"></i>
-              </div>
-          </div>
-          <div class="row">
-                  <div class="col-xs-12">
-                      <div class="ss_tags"></div>
-                  </div>
-              </div>
-          <div class="row">
-              <div class="col-xs-12">
-                  <div class="ss_description"></div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-xs-12">
-                  <div class="ss_options">
-                      <a><button class="btn ss_btnDownload col-xs-offset-2 col-xs-8 col-sm-4">
-                          <i class="glyphicon glyphicon-inbox"></i>Descargar
-                      </button></a>
-                      <button class="btn ss_btnShoppingCart col-xs-offset-2 col-xs-8 col-sm-4">
-                          <i class="glyphicon glyphicon-shopping-cart"></i>Comprar
-                      </button>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="col-xs-12">
-          <div class="row">
-              <div class="col-xs-12 ss_recommended">
-                  <div class="row">
-                      <div class="col-xs-12 ss_recommended-title">
-                          <p>Seleccionado para ti</p>
-                      </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-xs-12 ss_recommended-content"></div>
-                  </div>
-              </div>
-          </div>
-      </div>
+
+<div class="row">
+    <app-menubar></app-menubar>
+    <div class="col-xs-12 top-margin">
+        <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-5 ss_detail-thumbnail" [style.background]="'url(' + WebServiceURL + magazine.Thumbnail + ')'">
+                <i class="fa fa-search-plus"></i>
+            </div>
+            <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-5 ss_detail-info">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="ss_rating">
+                                    <select id="example" >
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="ss_info">
+                                    <h3 class="ss_title">
+                                        {{magazine.title}}
+                                    </h3>
+                                    <h4 class="ss_author"> <a href="">{{magazine.owner}}</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <i class="glyphicon glyphicon-heart ss_detail-like-icon"></i>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-12">
+                            <div class="ss_tags">
+                                <i *ngFor="let tag of magazine.tags" class="ss_tag"><a href="">{{tag}}</a></i>
+                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="ss_description">{{magazine.Description}}</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="ss_options">
+                            <a><button (click)="downloadMagazine()" class="btn ss_btnDownload col-xs-offset-2 col-xs-8 col-sm-4">
+                                <i class="glyphicon glyphicon-inbox"></i>Descargar
+                            </button></a>
+                            <button (click)="buyMagazine()" class="btn ss_btnShoppingCart col-xs-offset-2 col-xs-8 col-sm-4">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12 ss_recommended">
+                        <div class="row">
+                            <div class="col-xs-12 ss_recommended-title">
+                                <p>Seleccionado para ti</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 ss_recommended-content">
+                                <div *ngFor="let item of currentUser.recommendedMagazines" class="ss_recommended-item">
+                                    {{item}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
-</main>

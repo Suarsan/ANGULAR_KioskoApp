@@ -13,7 +13,7 @@ export class MagazineCarouselComponent implements OnInit {
   @Input('magazines') magazines: Array<MagazineModel>;
   @ViewChild('wrapcarousel') wrapcarousel: ElementRef;
   public horizontalScrollValue: number;
-  private WebServiceURL;
+  public WebServiceURL;
 
   constructor( private router: Router ) {
     this.WebServiceURL = environment.WebServiceURL;
@@ -43,9 +43,8 @@ export class MagazineCarouselComponent implements OnInit {
   gotoGrid(magazines) {
     this.router.navigate(['/grid', magazines]);
   }
-  gotoDetail(magazine: MagazineModel) {
-    console.log('magazine');
-    this.router.navigate(['/magazine', magazine.Id]);
+  gotoDetail(magazine) {
+    this.router.navigate(['/magazine', magazine.id]);
   }
 
 }
