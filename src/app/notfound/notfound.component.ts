@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-notfound',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./notfound.component.css']
 })
 export class NotfoundComponent implements OnInit {
+  public WebServiceURL;
 
-  constructor() { }
+  constructor() { this.WebServiceURL = environment.WebServiceURL; }
 
   ngOnInit() {
   }
