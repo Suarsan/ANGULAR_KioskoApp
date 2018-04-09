@@ -57,6 +57,10 @@
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
+  .indexText h4 {
+    font-weight: bold;
+    font-style: italic;
+  }
   .indexText p {
     margin: 0;
     padding: 0;
@@ -111,11 +115,15 @@
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
+  .indexText h4 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+  }
   .indexText p {
     margin: 0;
     padding: 0;
     text-align: justify;
-    margin-right: 5%;
     margin-left: 5%;
     font-size: 1.2em;
     line-height: 1.5;
@@ -123,54 +131,33 @@
 }
 /***** MD *******/
 @media (min-width: 992px) {
-  /**** BOTONES ****/
-  .loginBtn,
-  .registerBtn {
-    box-shadow: 2px 2px 5px #646464;
-    text-shadow: 1px 1px 2px #646464;
-    border-radius: 15px;
-    font-size: 1.2em;
-    margin-top: 7.5px;
-    margin-left: 3%;
-    height: 35px;
-    white-space: normal;
-    font-weight: 400;
-  }
-  .menuIndex {
-    background-color: #0a0a0a;
-    height: 50px;
-    top: 0;
-  }
   .indexTitle {
-    padding-top: 66px;
-    margin-bottom: 2.5%;
-    text-align: center;
-    color: #333333;
-    font-size: 3em;
-    font-weight: 900;
-  }
-  .indexMainText {
-    margin-bottom: 5%;
+    font-size: 3.2em;
   }
   .indexMainText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    color: #0a0a0a;
-    font-size: 1.3em;
-    font-weight: bolder;
+    font-size: 1.6em;
   }
-  .indexText {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+  .indexText h4 {
+    font-size: 1.5em;
   }
   .indexText p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    margin-right: 5%;
-    margin-left: 5%;
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1.3em;
+    line-height: 1.6;
+  }
+}
+/***** LG *******/
+@media (min-width: 1170px) {
+  .indexTitle {
+    font-size: 4em;
+  }
+  .indexMainText p {
+    font-size: 2em;
+  }
+  .indexText h4 {
+    font-size: 1.75em;
+  }
+  .indexText p {
+    font-size: 1.5em;
+    line-height: 1.75;
   }
 }

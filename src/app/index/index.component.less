@@ -45,17 +45,14 @@
     white-space: normal;
     font-weight: 400;
   }
-
   .menuIndex {
     background-color: @black;
     height: 50px;
     top: 0;
   }
-
   .contenido{
     padding-bottom: 100px;
   }
-
   .indexTitle{
     margin-bottom: 5%;
     padding-top: 75px;
@@ -63,21 +60,22 @@
     font-size: 3em;
     font-weight: 900;
   }
-
   .indexMainText{
     margin-bottom: 5%;
   }
-
   .indexMainText p{
     .paragraphFont;
     color: @black;
     font-size: 1.3em;
     font-weight: bolder;
   }
-
   .indexText{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+  }
+  .indexText h4{
+    font-weight: bold;
+    font-style: italic;
   }
   .indexText p{
     .paragraphFont;
@@ -98,17 +96,14 @@
     white-space: normal;
     font-weight: 400;
   }
-
   .contenido{
     padding-bottom: 50px;
   }
-
   .menuIndex {
     background-color: @black;
     height: 50px;
     top: 0;
   }
-
   .indexTitle{
     padding-top: 66px;
     margin-bottom: 2.5%;
@@ -117,25 +112,26 @@
     font-size: 3em;
     font-weight: 900;
   }
-
   .indexMainText{
     margin-bottom: 5%;
   }
-
   .indexMainText p{
     .paragraphFont;
     color: @black;
     font-size: 1.3em;
     font-weight: bolder;
   }
-
   .indexText{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
+  .indexText h4{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+  }
   .indexText p{
     .paragraphFont;
-    margin-right: 5%;
     margin-left: 5%;
     font-size: 1.2em;
     line-height: 1.5;
@@ -144,52 +140,34 @@
 
 /***** MD *******/
 @media (min-width: @screen-md-min) {
-  /**** BOTONES ****/
-  .loginBtn,
-  .registerBtn {
-    .abm_btn;
-    margin-top: 7.5px;
-    margin-left: 3%;
-    height: 35px;
-    white-space: normal;
-    font-weight: 400;
-  }
-
-  .menuIndex {
-    background-color: @black;
-    height: 50px;
-    top: 0;
-  }
-
   .indexTitle{
-    padding-top: 66px;
-    margin-bottom: 2.5%;
-    text-align: center;
-    color: @blackgray;
-    font-size: 3em;
-    font-weight: 900;
+    font-size: 3.2em;
   }
-
-  .indexMainText{
-    margin-bottom: 5%;
-  }
-
   .indexMainText p{
-    .paragraphFont;
-    color: @black;
-    font-size: 1.3em;
-    font-weight: bolder;
+    font-size: 1.6em;
   }
-
-  .indexText{
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+  .indexText h4{
+    font-size: 1.5em;
   }
   .indexText p{
-    .paragraphFont;
-    margin-right: 5%;
-    margin-left: 5%;
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1.3em;
+    line-height: 1.6;
+  }
+}
+
+/***** LG *******/
+@media (min-width: @screen-lg-min) {
+  .indexTitle{
+    font-size: 4em;
+  }
+  .indexMainText p{
+    font-size: 2em;
+  }
+  .indexText h4{
+    font-size: 1.75em;
+  }
+  .indexText p{
+    font-size: 1.5em;
+    line-height: 1.75;
   }
 }

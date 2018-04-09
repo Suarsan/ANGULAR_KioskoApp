@@ -37,7 +37,7 @@ export class SignupComponent implements OnInit {
         }
       );
     } else {
-      this.message = 'Términos y condiciones desmarcado';
+      this.message = 'Tienes que aceptar los términos y condiciones y la declaración de privacidad del servicio antes de registrarte.';
         }
   }
 }
