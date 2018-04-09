@@ -1,9 +1,7 @@
-/**** TAMAÑOS PANTALLA ******/
-/****** COLORES ********/
-/***** XS *******/
-@media (max-width: 767px) {
-  .userSettingsPage {
-    background-color: #eeeeee;
-  }
-}
-/***** SM *******/
+h4 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 15px; }
+
+/*# sourceMappingURL=wallet.component.css.map */

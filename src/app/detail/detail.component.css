@@ -1,0 +1,135 @@
+.ss_detail-thumbnail {
+  height: 275px;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0 500px black inset;
+  animation-name: thumbnail-animation;
+  animation-duration: 0.5s; }
+  .ss_detail-thumbnail .fa-search-plus {
+    z-index: 99;
+    font-size: 4em;
+    color: #c8c8c8;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.ss_detail-thumbnail:hover .fa-search-plus:hover {
+  font-size: 4.2em;
+  transition: 0.25s ease; }
+
+.ss_detail-info .ss_rating {
+  margin-top: 30px;
+  margin-left: 10px; }
+  .ss_detail-info .ss_rating .fa-star {
+    font-size: 1.5em;
+    color: #c8c8c8; }
+  .ss_detail-info .ss_rating .checked {
+    color: orange; }
+.ss_detail-info .ss_detail-like-icon {
+  color: white;
+  text-shadow: 0px 0px 2px black;
+  font-size: 3.5em;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: right; }
+.ss_detail-info .ss_detail-like-icon:hover {
+  text-shadow: 0px 0px 15px rgba(50, 50, 50, 0.5); }
+.ss_detail-info .ss-liked {
+  text-shadow: none;
+  color: #af0000; }
+.ss_detail-info .ss-liked:hover {
+  text-shadow: 0px 0px 10px rgba(175, 0, 0, 0.5); }
+.ss_detail-info .ss_detail-cart-icon:visited {
+  color: #af0000; }
+.ss_detail-info .ss_tags {
+  margin-top: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+  display: inline-block;
+  float: none; }
+  .ss_detail-info .ss_tags .ss_tag {
+    border: 1px solid #c8c8c8;
+    font-style: italic;
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+    margin-right: 5px;
+    font-size: 1em; }
+    .ss_detail-info .ss_tags .ss_tag > a {
+      color: #c8c8c8; }
+    .ss_detail-info .ss_tags .ss_tag > a:link {
+      text-decoration: none; }
+  .ss_detail-info .ss_tags .ss_tag:hover {
+    background-color: #c8c8c8; }
+    .ss_detail-info .ss_tags .ss_tag:hover > a {
+      color: white; }
+    .ss_detail-info .ss_tags .ss_tag:hover > a:link {
+      font-decoration: none; }
+.ss_detail-info .ss_info {
+  margin-top: 0px;
+  margin-left: 10px; }
+  .ss_detail-info .ss_info h3 {
+    margin: 10px 0 0 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.5em; }
+  .ss_detail-info .ss_info h4 {
+    margin: 0; }
+    .ss_detail-info .ss_info h4 a {
+      font-size: 0.75em;
+      color: #c8c8c8;
+      text-decoration: none; }
+.ss_detail-info .ss_description {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1em; }
+.ss_detail-info .ss_options {
+  font-size: 1.5em; }
+  .ss_detail-info .ss_options .ss_btnDownload {
+    margin-top: 35px;
+    background-color: white;
+    color: black;
+    border: 2px solid #c8c8c8; }
+    .ss_detail-info .ss_options .ss_btnDownload i {
+      margin-right: 15px; }
+  .ss_detail-info .ss_options .ss_btnDownload:hover {
+    background-color: #c8c8c8;
+    box-shadow: 0px 0px 15px rgba(230, 230, 230, 0.75); }
+  .ss_detail-info .ss_options .ss_btnDownload:focus {
+    background-color: #c8c8c8;
+    outline: 0; }
+  .ss_detail-info .ss_options .ss_btnShoppingCart {
+    margin-top: 35px;
+    color: black;
+    background-color: white;
+    border: 2px solid #c8c8c8; }
+    .ss_detail-info .ss_options .ss_btnShoppingCart i {
+      margin-right: 15px; }
+  .ss_detail-info .ss_options .ss_btnShoppingCart:hover {
+    background-color: #c8c8c8;
+    box-shadow: 0px 0px 15px rgba(230, 230, 230, 0.75); }
+  .ss_detail-info .ss_options .ss_btnShoppingCart:focus {
+    background-color: #c8c8c8;
+    outline: 0; }
+
+.ss_recommended {
+  margin-top: 50px; }
+  .ss_recommended .ss_recommended-title {
+    text-align: center !important;
+    color: #c8c8c8; }
+  .ss_recommended .ss_recommended-content .ss_recommended-item {
+    text-align: center; }
+    .ss_recommended .ss_recommended-content .ss_recommended-item img {
+      position: relative;
+      display: block;
+      width: 100%;
+      filter: brightness(50%); }
+    .ss_recommended .ss_recommended-content .ss_recommended-item i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 3em; }
+
+/*# sourceMappingURL=detail.component.css.map */
