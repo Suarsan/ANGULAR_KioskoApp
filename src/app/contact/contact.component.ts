@@ -11,18 +11,25 @@ export class ContactComponent implements OnInit {
   public nombre: string;
   public apellidos: string;
   public email: string;
-  public mensaje: string;
-  public agree = false;
+  public userMessage: string;
   public message = '';
 
-
-  constructor(private sendMeauthService: AuthService ) { }
+  constructor() {
+    this.email = '';
+    this.userMessage = '';
+   }
 
   ngOnInit() {
   }
 
   private Accept() {
-    console.dir(this.agree);
+
+    if (this.userMessage === '' || this.email === '' ) {
+      console.log('mensaje no enviado');
+    } else {
+      console.log('mensaje enviado');
+      this.message = 'El mensaje no se puede enviar.';
+    }
 
   }
 
